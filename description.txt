@@ -6,6 +6,6 @@ In general, this device should remote on an air conditioners, where IR commands 
 So for keeping so much information, and trying make the device very universal, I solved this not trivial problem that way:
 Device receive command, identify it to group (according to type), packing it in short format (my own invention) and store it to microprocessor program memory.
 This device is remoted by UART bus with a typical AT commands interface, and has external remoting through a radio channel and works into a smart home system.
-Now it can identify and keep all type of IR command (at least for air conditioners) 
+Now it can identify and keep all type of IR command (at least for air conditioners)  
 
 
