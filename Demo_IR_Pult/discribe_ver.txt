@@ -1,0 +1,8 @@
+ver 1.24_dakin
+
+
+
+To record Dakine air conditioner, the record is expanded to 6 packets of 64 per command-1 packet is a description of the package and 5 is the body
+fixed bug when writing and reading (save_scanbuf and read_scanbuf) packets, because the previous version wrote 5 packages for a command
+Extend the number of commands to 100
+Descriptions added to name_konst.h

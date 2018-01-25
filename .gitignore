@@ -1,0 +1,16 @@
+*.cof
+*.sdb
+*.sym
+*.obj
+*.lst
+*.rlf
+*.lde
+*.cce
+*.cod
+*.dep
+*.p1
+*.d
+*.pre
+log
+SOFT/DMA-41.2Z.ver1.4/DMA41-2z.hxl
+SOFT/DMA-41.2Z.ver1.2/DMA41-2z.map
