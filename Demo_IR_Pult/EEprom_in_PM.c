@@ -1,8 +1,8 @@
 #include <pic18.h>
-#include "my_delay.h"
-#include "name_konst.h"
+#include "my_delays.h"
+#include "name_constants.h"
 #include "usart.h" 
-#include "name_port.h"
+#include "name_ports.h"
 
 unsigned char global_switch_protect;
 #define MAX_NUM_PMBUF  Max_memory_Cells*6				// MAX value of packet number for writing and keeping

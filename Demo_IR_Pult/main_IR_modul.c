@@ -1,10 +1,10 @@
 #include <pic18.h>
 //#include "ctype.h"
-#include "name_port.h"
-#include "my_delay.h"
+#include "name_ports.h"
+#include "my_delays.h"
 #include "usart.h" 
 #include "flash_const.h"
-#include "name_konst.h"
+#include "name_constants.h"
 #include "eeprom.h"
 #include "terminal.h"
 #include "EEprom_in_PM.h"

@@ -1,0 +1,3089 @@
+HI-TECH Software PICC-18 Compiler V9.80 ()
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\dat\en_msgs.txt \
+  -cs -h+IR_remoute.sym -z -Q18F26K22 -ol.obj -MIR_remoute.map -E1 \
+  -ver=PICC-18 -p_User_Name115_text=A300h -p_User_Name50_text=6200h \
+  -p_User_Name42_text=5A00h -p_User_Name107_text=9B00h \
+  -p_User_Name34_text=5200h -p_User_Name26_text=4A00h \
+  -p_User_Name18_text=4200h -p_User_Name131_text=B300h \
+  -p_User_Name123_text=AB00h -p_User_Name10_text=3A00h \
+  -p_User_Name99_text=9300h -p_User_Name91_text=8B00h \
+  -p_User_Name83_text=8300h -p_User_Name156_text=CC00h \
+  -p_User_Name75_text=7B00h -p_User_Name67_text=7300h \
+  -p_User_Name148_text=C400h -p_User_Name59_text=6B00h \
+  -p_User_Name6_text=3600h -p_User_Name124_text=AC00h \
+  -p_User_Name51_text=6300h -p_User_Name116_text=A400h \
+  -p_User_Name43_text=5B00h -p_User_Name35_text=5300h \
+  -p_User_Name108_text=9C00h -p_User_Name27_text=4B00h \
+  -p_User_Name19_text=4300h -p_User_Name140_text=BC00h \
+  -p_User_Name132_text=B400h -p_User_Name11_text=3B00h \
+  -p_User_Name100_text=9400h -p_User_Name92_text=8C00h \
+  -p_User_Name84_text=8400h -p_User_Name76_text=7C00h \
+  -p_User_Name157_text=CD00h -p_User_Name68_text=7400h \
+  -p_User_Name149_text=C500h -p_User_Name7_text=3700h \
+  -p_User_Name133_text=B500h -p_User_Name60_text=6C00h \
+  -p_User_Name125_text=AD00h -p_User_Name52_text=6400h \
+  -p_User_Name44_text=5C00h -p_User_Name117_text=A500h \
+  -p_User_Name36_text=5400h -p_User_Name28_text=4C00h \
+  -p_User_Name109_text=9D00h -p_User_Name141_text=BD00h \
+  -p_User_Name20_text=4400h -p_User_Name12_text=3C00h \
+  -p_User_Name101_text=9500h -p_User_Name93_text=8D00h \
+  -p_User_Name85_text=8500h -p_User_Name77_text=7D00h \
+  -p_User_Name69_text=7500h -p_User_Name158_text=CE00h \
+  -p_User_Name8_text=3800h -p_User_Name134_text=B600h \
+  -p_User_Name61_text=6D00h -p_User_Name126_text=AE00h \
+  -p_User_Name53_text=6500h -p_User_Name45_text=5D00h \
+  -p_User_Name118_text=A600h -p_User_Name37_text=5500h \
+  -p_User_Name29_text=4D00h -p_User_Name150_text=C600h \
+  -p_User_Name142_text=BE00h -p_User_Name21_text=4500h \
+  -p_User_Name13_text=3D00h -p_User_Name110_text=9E00h \
+  -p_User_Name102_text=9600h -p_User_Name94_text=8E00h \
+  -p_User_Name86_text=8600h -p_User_Name78_text=7E00h \
+  -p_User_Name159_text=CF00h -p_User_Name9_text=3900h \
+  -p_User_Name143_text=BF00h -p_User_Name70_text=7600h \
+  -p_User_Name135_text=B700h -p_User_Name62_text=6E00h \
+  -p_User_Name54_text=6600h -p_User_Name127_text=AF00h \
+  -p_User_Name46_text=5E00h -p_User_Name38_text=5600h \
+  -p_User_Name119_text=A700h -p_User_Name1_text=3100h \
+  -p_User_Name151_text=C700h -p_User_Name30_text=4E00h \
+  -p_User_Name22_text=4600h -p_User_Name14_text=3E00h \
+  -p_User_Name111_text=9F00h -p_User_Name103_text=9700h \
+  -p_User_Name95_text=8F00h -p_User_Name87_text=8700h \
+  -p_User_Name79_text=7F00h -p_User_Name152_text=C800h \
+  -p_User_Name144_text=C000h -p_User_Name71_text=7700h \
+  -p_User_Name63_text=6F00h -p_User_Name136_text=B800h \
+  -p_User_Name55_text=6700h -p_User_Name47_text=5F00h \
+  -p_User_Name128_text=B000h -p_User_Name39_text=5700h \
+  -p_User_Name2_text=3200h -p_User_Name31_text=4F00h \
+  -p_User_Name23_text=4700h -p_User_Name15_text=3F00h \
+  -p_User_Name120_text=A800h -p_User_Name_text=3000h \
+  -p_User_Name112_text=A000h -p_User_Name104_text=9800h \
+  -p_User_Name96_text=9000h -p_User_Name88_text=8800h \
+  -p_User_Name153_text=C900h -p_User_Name80_text=8000h \
+  -p_User_Name145_text=C100h -p_User_Name72_text=7800h \
+  -p_User_Name64_text=7000h -p_User_Name137_text=B900h \
+  -p_User_Name56_text=6800h -p_User_Name48_text=6000h \
+  -p_User_Name129_text=B100h -p_User_Name3_text=3300h \
+  -p_User_Name105_text=9900h -p_User_Name40_text=5800h \
+  -p_User_Name32_text=5000h -p_User_Name24_text=4800h \
+  -p_User_Name16_text=4000h -p_User_Name121_text=A900h \
+  -p_User_Name113_text=A100h -p_User_Name97_text=9100h \
+  -p_User_Name89_text=8900h -p_User_Name154_text=CA00h \
+  -p_User_Name81_text=8100h -p_User_Name73_text=7900h \
+  -p_User_Name146_text=C200h -p_User_Name65_text=7100h \
+  -p_User_Name57_text=6900h -p_User_Name138_text=BA00h \
+  -p_User_Name49_text=6100h -p_User_Name4_text=3400h \
+  -p_User_Name114_text=A200h -p_User_Name41_text=5900h \
+  -p_User_Name106_text=9A00h -p_User_Name33_text=5100h \
+  -p_User_Name25_text=4900h -p_User_Name17_text=4100h \
+  -p_User_Name130_text=B200h -p_User_Name122_text=AA00h \
+  -p_User_Name98_text=9200h -p_User_Name90_text=8A00h \
+  -p_User_Name82_text=8200h -p_User_Name155_text=CB00h \
+  -p_User_Name74_text=7A00h -p_User_Name66_text=7200h \
+  -p_User_Name147_text=C300h -p_User_Name58_text=6A00h \
+  -p_User_Name139_text=BB00h -p_User_Name5_text=3500h \
+  -ACODE=00h-02FFFh,030FAh-030FFh,031FAh-031FFh,032FAh-032FFh,033FAh-033FFh,034FAh-034FFh,035FAh-035FFh,036FAh-036FFh,037FAh-037FFh,038FAh-038FFh,039FAh-039FFh,03AFAh-03AFFh,03BFAh-03BFFh,03CFAh-03CFFh,03DFAh-03DFFh,03EFAh-03EFFh,03FFAh-03FFFh,040FAh-040FFh,041FAh-041FFh,042FAh-042FFh,043FAh-043FFh,044FAh-044FFh,045FAh-045FFh,046FAh-046FFh,047FAh-047FFh,048FAh-048FFh,049FAh-049FFh,04AFAh-04AFFh,04BFAh-04BFFh,04CFAh-04CFFh,04DFAh-04DFFh,04EFAh-04EFFh,04FFAh-04FFFh,050FAh-050FFh,051FAh-051FFh,052FAh-052FFh,053FAh-053FFh,054FAh-054FFh,055FAh-055FFh,056FAh-056FFh,057FAh-057FFh,058FAh-058FFh,059FAh-059FFh,05AFAh-05AFFh,05BFAh-05BFFh,05CFAh-05CFFh,05DFAh-05DFFh,05EFAh-05EFFh,05FFAh-05FFFh,060FAh-060FFh,061FAh-061FFh,062FAh-062FFh,063FAh-063FFh,064FAh-064FFh,065FAh-065FFh,066FAh-066FFh,067FAh-067FFh,068FAh-068FFh,069FAh-069FFh,06AFAh-06AFFh,06BFAh-06BFFh,06CFAh-06CFFh,06DFAh-06DFFh,06EFAh-06EFFh,06FFAh-06FFFh,070FAh-070FFh,071FAh-071FFh,072FAh-072FFh,073FAh-073FFh,074FAh-074FFh,075FAh-075FFh,076FAh-076FFh,077FAh-077FFh,078FAh-078FFh,079FAh-079FFh,07AFAh-07AFFh,07BFAh-07BFFh,07CFAh-07CFFh,07DFAh-07DFFh,07EFAh-07EFFh,07FFAh-07FFFh,080FAh-080FFh,081FAh-081FFh,082FAh-082FFh,083FAh-083FFh,084FAh-084FFh,085FAh-085FFh,086FAh-086FFh,087FAh-087FFh,088FAh-088FFh,089FAh-089FFh,08AFAh-08AFFh,08BFAh-08BFFh,08CFAh-08CFFh,08DFAh-08DFFh,08EFAh-08EFFh,08FFAh-08FFFh,090FAh-090FFh,091FAh-091FFh,092FAh-092FFh,093FAh-093FFh,094FAh-094FFh,095FAh-095FFh,096FAh-096FFh,097FAh-097FFh,098FAh-098FFh,099FAh-099FFh,09AFAh-09AFFh,09BFAh-09BFFh,09CFAh-09CFFh,09DFAh-09DFFh,09EFAh-09EFFh,09FFAh-09FFFh,0A0FAh-0A0FFh,0A1FAh-0A1FFh,0A2FAh-0A2FFh,0A3FAh-0A3FFh,0A4FAh-0A4FFh,0A5FAh-0A5FFh,0A6FAh-0A6FFh,0A7FAh-0A7FFh,0A8FAh-0A8FFh,0A9FAh-0A9FFh,0AAFAh-0AAFFh,0ABFAh-0ABFFh,0ACFAh-0ACFFh,0ADFAh-0ADFFh,0AEFAh-0AEFFh,0AFFAh-0AFFFh,0B0FAh-0B0FFh,0B1FAh-0B1FFh,0B2FAh-0B2FFh,0B3FAh-0B3FFh,0B4FAh-0B4FFh,0B5FAh-0B5FFh,0B6FAh-0B6FFh,0B7FAh-0B7FFh,0B8FAh-0B8FFh,0B9FAh-0B9FFh,0BAFAh-0BAFFh,0BBFAh-0BBFFh,0BCFAh-0BCFFh,0BDFAh-0BDFFh,0BEFAh-0BEFFh,0BFFAh-0BFFFh,0C0FAh-0C0FFh,0C1FAh-0C1FFh,0C2FAh-0C2FFh,0C3FAh-0C3FFh,0C4FAh-0C4FFh,0C5FAh-0C5FFh,0C6FAh-0C6FFh,0C7FAh-0C7FFh,0C8FAh-0C8FFh,0C9FAh-0C9FFh,0CAFAh-0CAFFh,0CBFAh-0CBFFh,0CCFAh-0CCFFh,0CDFAh-0CDFFh,0CEFAh-0CEFFh,0CFFAh-0FFFFh \
+  -ACONST=00h-0FFFFh -ASMALLCONST=01000h-010FFhx240 \
+  -AMEDIUMCONST=01000h-0FFFFh -ACOMRAM=01h-05Fh -AABS1=00h-0F37h \
+  -ABIGRAM=01h-0F37h -ARAM=060h-0FFh,0100h-01FFhx14,0F00h-0F37h \
+  -ABANK0=060h-0FFh -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh \
+  -ABANK3=0300h-03FFh -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh \
+  -ABANK6=0600h-06FFh -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh \
+  -ABANK9=0900h-09FFh -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh \
+  -ABANK12=0C00h-0CFFh -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0EFFh \
+  -ABANK15=0F00h-0F37h -ASFR=0F38h-0F5Fh,0F60h-0FFFh \
+  -preset_vec=00h,intcode=08h,intcodelo,powerup,init,end_init \
+  -pramtop=01000h -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST \
+  -pconst=CONST -AFARRAM=00h-00h -ACONFIG=0300000h-030000Dh -pconfig=CONFIG \
+  -AIDLOC=0200000h-0200007h -pidloc=IDLOC -AEEDATA=0F00000h-0F003FFh \
+  -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
+  C:\Users\ADMIN~1\AppData\Local\Temp\s650.obj IR_remoute.obj 
+
+Object code version is 3.10
+
+Machine type is 18F26K22
+
+Call graph: (short form)
+
+
+
+
+                Name          Link     Load   Length Selector   Space       Scale
+C:\Users\ADMIN~1\AppData\Local\Temp\s650.obj
+                end_init       3E4      3E4        4       4     0
+                reset_vec        0        0        4       0     0
+                config      300000   300000        A  300000     0
+IR_remoute.obj  eeprom_da   F00000   F00000        8  F00000     0
+                intcode          8        8      3DC       4     0
+                mediumcon     CFFA     CFFA       F8    67FD     0
+                text47        1BE2     1BE2       4C       4     0
+                text46        1C78     1C78       4A       4     0
+                text45        1EBC     1EBC       2C       4     0
+                text44        1C2E     1C2E       4A       4     0
+                text43        1E54     1E54       36       4     0
+                text42        19D0     19D0       76       4     0
+                text41        1FD6     1FD6       1A       4     0
+                text40        15D6     15D6       AE       4     0
+                text39         B88      B88      1D8       4     0
+                text38        1B28     1B28       6A       4     0
+                text37        1A46     1A46       76       4     0
+                text36         F12      F12      166       4     0
+                text35        1F60     1F60       22       4     0
+                text34        11BC     11BC      10A       4     0
+                text33        1F82     1F82       1C       4     0
+                text32        2022     2022       18       4     0
+                text31        1FF0     1FF0       1A       4     0
+                text30        1684     1684       A0       4     0
+                text29        18D2     18D2       84       4     0
+                text28        1520     1520       B6       4     0
+                text27        17BC     17BC       8C       4     0
+                text26        1078     1078      144       4     0
+                text25         D60      D60      1B2       4     0
+                text24        1DDA     1DDA       3E       4     0
+                text23        2050     2050        C       4     0
+                text22        1956     1956       7A       4     0
+                text21        1D98     1D98       42       4     0
+                text20        1724     1724       98       4     0
+                text19        145A     145A       C6       4     0
+                text18        1D0A     1D0A       48       4     0
+                text17        1CC2     1CC2       48       4     0
+                text16        1B92     1B92       50       4     0
+                text15        1EE8     1EE8       2A       4     0
+                text14        205C     205C        6       4     0
+                text13        200A     200A       18       4     0
+                text12         3E8      3E8      7A0       4     0
+                text11        203A     203A       16       4     0
+                text10        1FBA     1FBA       1C       4     0
+                text9         1848     1848       8A       4     0
+                text8         1E8A     1E8A       32       4     0
+                text7         1E18     1E18       3C       4     0
+                text6         1392     1392       C8       4     0
+                text5         2062     2062        2       4     0
+                text4         1F3C     1F3C       24       4     0
+                text3         1F9E     1F9E       1C       4     0
+                text2         1F12     1F12       2A       4     0
+                text1         1ABC     1ABC       6C       4     0
+                text0         12C6     12C6       CC       4     0
+                cstackCOM        1        1       41       1     1
+                cstackBAN       C1       C1       1C      60     1
+                bssBIGRAM      200      200      C73     200     1
+                bssBANK1       100      100      100     100     1
+                bssBANK0        60       60       61      60     1
+                bssCOMRAM       42       42       13       1     1
+                cinit         1D52     1D52       46       4     0
+                _User_Nam     9300     9300       FA    4980     0
+                _User_Nam     9200     9200       FA    4900     0
+                _User_Nam     9100     9100       FA    4880     0
+                _User_Nam     9000     9000       FA    4800     0
+                _User_Nam     8F00     8F00       FA    4780     0
+                _User_Nam     8E00     8E00       FA    4700     0
+                _User_Nam     8D00     8D00       FA    4680     0
+                _User_Nam     8C00     8C00       FA    4600     0
+                _User_Nam     8B00     8B00       FA    4580     0
+                _User_Nam     8A00     8A00       FA    4500     0
+                _User_Nam     3900     3900       FA    1C80     0
+                _User_Nam     8900     8900       FA    4480     0
+                _User_Nam     8800     8800       FA    4400     0
+                _User_Nam     8700     8700       FA    4380     0
+                _User_Nam     8600     8600       FA    4300     0
+                _User_Nam     8500     8500       FA    4280     0
+                _User_Nam     8400     8400       FA    4200     0
+                _User_Nam     8300     8300       FA    4180     0
+                _User_Nam     8200     8200       FA    4100     0
+                _User_Nam     8100     8100       FA    4080     0
+                _User_Nam     8000     8000       FA    4000     0
+                _User_Nam     3800     3800       FA    1C00     0
+                _User_Nam     7F00     7F00       FA    3F80     0
+                _User_Nam     7E00     7E00       FA    3F00     0
+                _User_Nam     7D00     7D00       FA    3E80     0
+                _User_Nam     7C00     7C00       FA    3E00     0
+                _User_Nam     7B00     7B00       FA    3D80     0
+                _User_Nam     7A00     7A00       FA    3D00     0
+                _User_Nam     7900     7900       FA    3C80     0
+                _User_Nam     7800     7800       FA    3C00     0
+                _User_Nam     7700     7700       FA    3B80     0
+                _User_Nam     7600     7600       FA    3B00     0
+                _User_Nam     3700     3700       FA    1B80     0
+                _User_Nam     7500     7500       FA    3A80     0
+                _User_Nam     7400     7400       FA    3A00     0
+                _User_Nam     7300     7300       FA    3980     0
+                _User_Nam     7200     7200       FA    3900     0
+                _User_Nam     7100     7100       FA    3880     0
+                _User_Nam     7000     7000       FA    3800     0
+                _User_Nam     6F00     6F00       FA    3780     0
+                _User_Nam     6E00     6E00       FA    3700     0
+                _User_Nam     6D00     6D00       FA    3680     0
+                _User_Nam     6C00     6C00       FA    3600     0
+                _User_Nam     3600     3600       FA    1B00     0
+                _User_Nam     6B00     6B00       FA    3580     0
+                _User_Nam     6A00     6A00       FA    3500     0
+                _User_Nam     6900     6900       FA    3480     0
+                _User_Nam     6800     6800       FA    3400     0
+                _User_Nam     6700     6700       FA    3380     0
+                _User_Nam     6600     6600       FA    3300     0
+                _User_Nam     6500     6500       FA    3280     0
+                _User_Nam     6400     6400       FA    3200     0
+                _User_Nam     6300     6300       FA    3180     0
+                _User_Nam     6200     6200       FA    3100     0
+                _User_Nam     3500     3500       FA    1A80     0
+                _User_Nam     6100     6100       FA    3080     0
+                _User_Nam     6000     6000       FA    3000     0
+                _User_Nam     5F00     5F00       FA    2F80     0
+                _User_Nam     5E00     5E00       FA    2F00     0
+                _User_Nam     5D00     5D00       FA    2E80     0
+                _User_Nam     5C00     5C00       FA    2E00     0
+                _User_Nam     5B00     5B00       FA    2D80     0
+                _User_Nam     5A00     5A00       FA    2D00     0
+                _User_Nam     5900     5900       FA    2C80     0
+                _User_Nam     5800     5800       FA    2C00     0
+                _User_Nam     3400     3400       FA    1A00     0
+                _User_Nam     5700     5700       FA    2B80     0
+                _User_Nam     5600     5600       FA    2B00     0
+                _User_Nam     5500     5500       FA    2A80     0
+                _User_Nam     5400     5400       FA    2A00     0
+                _User_Nam     5300     5300       FA    2980     0
+                _User_Nam     5200     5200       FA    2900     0
+                _User_Nam     5100     5100       FA    2880     0
+                _User_Nam     5000     5000       FA    2800     0
+                _User_Nam     4F00     4F00       FA    2780     0
+                _User_Nam     4E00     4E00       FA    2700     0
+                _User_Nam     3300     3300       FA    1980     0
+                _User_Nam     4D00     4D00       FA    2680     0
+                _User_Nam     4C00     4C00       FA    2600     0
+                _User_Nam     4B00     4B00       FA    2580     0
+                _User_Nam     4A00     4A00       FA    2500     0
+                _User_Nam     4900     4900       FA    2480     0
+                _User_Nam     4800     4800       FA    2400     0
+                _User_Nam     4700     4700       FA    2380     0
+                _User_Nam     4600     4600       FA    2300     0
+                _User_Nam     4500     4500       FA    2280     0
+                _User_Nam     4400     4400       FA    2200     0
+                _User_Nam     3200     3200       FA    1900     0
+                _User_Nam     4300     4300       FA    2180     0
+                _User_Nam     4200     4200       FA    2100     0
+                _User_Nam     4100     4100       FA    2080     0
+                _User_Nam     4000     4000       FA    2000     0
+                _User_Nam     CF00     CF00       FA    6780     0
+                _User_Nam     CE00     CE00       FA    6700     0
+                _User_Nam     CD00     CD00       FA    6680     0
+                _User_Nam     CC00     CC00       FA    6600     0
+                _User_Nam     CB00     CB00       FA    6580     0
+                _User_Nam     CA00     CA00       FA    6500     0
+                _User_Nam     C900     C900       FA    6480     0
+                _User_Nam     C800     C800       FA    6400     0
+                _User_Nam     C700     C700       FA    6380     0
+                _User_Nam     C600     C600       FA    6300     0
+                _User_Nam     3F00     3F00       FA    1F80     0
+                _User_Nam     C500     C500       FA    6280     0
+                _User_Nam     C400     C400       FA    6200     0
+                _User_Nam     C300     C300       FA    6180     0
+                _User_Nam     C200     C200       FA    6100     0
+                _User_Nam     C100     C100       FA    6080     0
+                _User_Nam     C000     C000       FA    6000     0
+                _User_Nam     BF00     BF00       FA    5F80     0
+                _User_Nam     BE00     BE00       FA    5F00     0
+                _User_Nam     BD00     BD00       FA    5E80     0
+                _User_Nam     BC00     BC00       FA    5E00     0
+                _User_Nam     3E00     3E00       FA    1F00     0
+                _User_Nam     BB00     BB00       FA    5D80     0
+                _User_Nam     BA00     BA00       FA    5D00     0
+                _User_Nam     B900     B900       FA    5C80     0
+                _User_Nam     B800     B800       FA    5C00     0
+                _User_Nam     B700     B700       FA    5B80     0
+                _User_Nam     B600     B600       FA    5B00     0
+                _User_Nam     B500     B500       FA    5A80     0
+                _User_Nam     B400     B400       FA    5A00     0
+                _User_Nam     B300     B300       FA    5980     0
+                _User_Nam     B200     B200       FA    5900     0
+                _User_Nam     3D00     3D00       FA    1E80     0
+                _User_Nam     B100     B100       FA    5880     0
+                _User_Nam     B000     B000       FA    5800     0
+                _User_Nam     AF00     AF00       FA    5780     0
+                _User_Nam     AE00     AE00       FA    5700     0
+                _User_Nam     AD00     AD00       FA    5680     0
+                _User_Nam     AC00     AC00       FA    5600     0
+                _User_Nam     AB00     AB00       FA    5580     0
+                _User_Nam     AA00     AA00       FA    5500     0
+                _User_Nam     A900     A900       FA    5480     0
+                _User_Nam     A800     A800       FA    5400     0
+                _User_Nam     3C00     3C00       FA    1E00     0
+                _User_Nam     A700     A700       FA    5380     0
+                _User_Nam     A600     A600       FA    5300     0
+                _User_Nam     A500     A500       FA    5280     0
+                _User_Nam     A400     A400       FA    5200     0
+                _User_Nam     A300     A300       FA    5180     0
+                _User_Nam     A200     A200       FA    5100     0
+                _User_Nam     A100     A100       FA    5080     0
+                _User_Nam     A000     A000       FA    5000     0
+                _User_Nam     9F00     9F00       FA    4F80     0
+                _User_Nam     9E00     9E00       FA    4F00     0
+                _User_Nam     3B00     3B00       FA    1D80     0
+                _User_Nam     9D00     9D00       FA    4E80     0
+                _User_Nam     9C00     9C00       FA    4E00     0
+                _User_Nam     9B00     9B00       FA    4D80     0
+                _User_Nam     9A00     9A00       FA    4D00     0
+                _User_Nam     9900     9900       FA    4C80     0
+                _User_Nam     9800     9800       FA    4C00     0
+                _User_Nam     9700     9700       FA    4B80     0
+                _User_Nam     9600     9600       FA    4B00     0
+                _User_Nam     9500     9500       FA    4A80     0
+                _User_Nam     9400     9400       FA    4A00     0
+                _User_Nam     3A00     3A00       FA    1D00     0
+                _User_Nam     3100     3100       FA    1880     0
+                _User_Nam     3000     3000       FA    1800     0
+
+TOTAL           Name          Link     Load   Length     Space
+        CLASS   CODE           
+                end_init       3E4      3E4        4     0
+                intcode          8        8      3DC     0
+                reset_vec        0        0        4     0
+                text47        1BE2     1BE2       4C     0
+                text46        1C78     1C78       4A     0
+                text45        1EBC     1EBC       2C     0
+                text44        1C2E     1C2E       4A     0
+                text43        1E54     1E54       36     0
+                text42        19D0     19D0       76     0
+                text41        1FD6     1FD6       1A     0
+                text40        15D6     15D6       AE     0
+                text39         B88      B88      1D8     0
+                text38        1B28     1B28       6A     0
+                text37        1A46     1A46       76     0
+                text36         F12      F12      166     0
+                text35        1F60     1F60       22     0
+                text34        11BC     11BC      10A     0
+                text33        1F82     1F82       1C     0
+                text32        2022     2022       18     0
+                text31        1FF0     1FF0       1A     0
+                text30        1684     1684       A0     0
+                text29        18D2     18D2       84     0
+                text28        1520     1520       B6     0
+                text27        17BC     17BC       8C     0
+                text26        1078     1078      144     0
+                text25         D60      D60      1B2     0
+                text24        1DDA     1DDA       3E     0
+                text23        2050     2050        C     0
+                text22        1956     1956       7A     0
+                text21        1D98     1D98       42     0
+                text20        1724     1724       98     0
+                text19        145A     145A       C6     0
+                text18        1D0A     1D0A       48     0
+                text17        1CC2     1CC2       48     0
+                text16        1B92     1B92       50     0
+                text15        1EE8     1EE8       2A     0
+                text14        205C     205C        6     0
+                text13        200A     200A       18     0
+                text12         3E8      3E8      7A0     0
+                text11        203A     203A       16     0
+                text10        1FBA     1FBA       1C     0
+                text9         1848     1848       8A     0
+                text8         1E8A     1E8A       32     0
+                text7         1E18     1E18       3C     0
+                text6         1392     1392       C8     0
+                text5         2062     2062        2     0
+                text4         1F3C     1F3C       24     0
+                text3         1F9E     1F9E       1C     0
+                text2         1F12     1F12       2A     0
+                text1         1ABC     1ABC       6C     0
+                text0         12C6     12C6       CC     0
+                cinit         1D52     1D52       46     0
+                _User_Nam     9300     9300       FA     0
+                _User_Nam     9200     9200       FA     0
+                _User_Nam     9100     9100       FA     0
+                _User_Nam     9000     9000       FA     0
+                _User_Nam     8F00     8F00       FA     0
+                _User_Nam     8E00     8E00       FA     0
+                _User_Nam     8D00     8D00       FA     0
+                _User_Nam     8C00     8C00       FA     0
+                _User_Nam     8B00     8B00       FA     0
+                _User_Nam     8A00     8A00       FA     0
+                _User_Nam     3900     3900       FA     0
+                _User_Nam     8900     8900       FA     0
+                _User_Nam     8800     8800       FA     0
+                _User_Nam     8700     8700       FA     0
+                _User_Nam     8600     8600       FA     0
+                _User_Nam     8500     8500       FA     0
+                _User_Nam     8400     8400       FA     0
+                _User_Nam     8300     8300       FA     0
+                _User_Nam     8200     8200       FA     0
+                _User_Nam     8100     8100       FA     0
+                _User_Nam     8000     8000       FA     0
+                _User_Nam     3800     3800       FA     0
+                _User_Nam     7F00     7F00       FA     0
+                _User_Nam     7E00     7E00       FA     0
+                _User_Nam     7D00     7D00       FA     0
+                _User_Nam     7C00     7C00       FA     0
+                _User_Nam     7B00     7B00       FA     0
+                _User_Nam     7A00     7A00       FA     0
+                _User_Nam     7900     7900       FA     0
+                _User_Nam     7800     7800       FA     0
+                _User_Nam     7700     7700       FA     0
+                _User_Nam     7600     7600       FA     0
+                _User_Nam     3700     3700       FA     0
+                _User_Nam     7500     7500       FA     0
+                _User_Nam     7400     7400       FA     0
+                _User_Nam     7300     7300       FA     0
+                _User_Nam     7200     7200       FA     0
+                _User_Nam     7100     7100       FA     0
+                _User_Nam     7000     7000       FA     0
+                _User_Nam     6F00     6F00       FA     0
+                _User_Nam     6E00     6E00       FA     0
+                _User_Nam     6D00     6D00       FA     0
+                _User_Nam     6C00     6C00       FA     0
+                _User_Nam     3600     3600       FA     0
+                _User_Nam     6B00     6B00       FA     0
+                _User_Nam     6A00     6A00       FA     0
+                _User_Nam     6900     6900       FA     0
+                _User_Nam     6800     6800       FA     0
+                _User_Nam     6700     6700       FA     0
+                _User_Nam     6600     6600       FA     0
+                _User_Nam     6500     6500       FA     0
+                _User_Nam     6400     6400       FA     0
+                _User_Nam     6300     6300       FA     0
+                _User_Nam     6200     6200       FA     0
+                _User_Nam     3500     3500       FA     0
+                _User_Nam     6100     6100       FA     0
+                _User_Nam     6000     6000       FA     0
+                _User_Nam     5F00     5F00       FA     0
+                _User_Nam     5E00     5E00       FA     0
+                _User_Nam     5D00     5D00       FA     0
+                _User_Nam     5C00     5C00       FA     0
+                _User_Nam     5B00     5B00       FA     0
+                _User_Nam     5A00     5A00       FA     0
+                _User_Nam     5900     5900       FA     0
+                _User_Nam     5800     5800       FA     0
+                _User_Nam     3400     3400       FA     0
+                _User_Nam     5700     5700       FA     0
+                _User_Nam     5600     5600       FA     0
+                _User_Nam     5500     5500       FA     0
+                _User_Nam     5400     5400       FA     0
+                _User_Nam     5300     5300       FA     0
+                _User_Nam     5200     5200       FA     0
+                _User_Nam     5100     5100       FA     0
+                _User_Nam     5000     5000       FA     0
+                _User_Nam     4F00     4F00       FA     0
+                _User_Nam     4E00     4E00       FA     0
+                _User_Nam     3300     3300       FA     0
+                _User_Nam     4D00     4D00       FA     0
+                _User_Nam     4C00     4C00       FA     0
+                _User_Nam     4B00     4B00       FA     0
+                _User_Nam     4A00     4A00       FA     0
+                _User_Nam     4900     4900       FA     0
+                _User_Nam     4800     4800       FA     0
+                _User_Nam     4700     4700       FA     0
+                _User_Nam     4600     4600       FA     0
+                _User_Nam     4500     4500       FA     0
+                _User_Nam     4400     4400       FA     0
+                _User_Nam     3200     3200       FA     0
+                _User_Nam     4300     4300       FA     0
+                _User_Nam     4200     4200       FA     0
+                _User_Nam     4100     4100       FA     0
+                _User_Nam     4000     4000       FA     0
+                _User_Nam     CF00     CF00       FA     0
+                _User_Nam     CE00     CE00       FA     0
+                _User_Nam     CD00     CD00       FA     0
+                _User_Nam     CC00     CC00       FA     0
+                _User_Nam     CB00     CB00       FA     0
+                _User_Nam     CA00     CA00       FA     0
+                _User_Nam     C900     C900       FA     0
+                _User_Nam     C800     C800       FA     0
+                _User_Nam     C700     C700       FA     0
+                _User_Nam     C600     C600       FA     0
+                _User_Nam     3F00     3F00       FA     0
+                _User_Nam     C500     C500       FA     0
+                _User_Nam     C400     C400       FA     0
+                _User_Nam     C300     C300       FA     0
+                _User_Nam     C200     C200       FA     0
+                _User_Nam     C100     C100       FA     0
+                _User_Nam     C000     C000       FA     0
+                _User_Nam     BF00     BF00       FA     0
+                _User_Nam     BE00     BE00       FA     0
+                _User_Nam     BD00     BD00       FA     0
+                _User_Nam     BC00     BC00       FA     0
+                _User_Nam     3E00     3E00       FA     0
+                _User_Nam     BB00     BB00       FA     0
+                _User_Nam     BA00     BA00       FA     0
+                _User_Nam     B900     B900       FA     0
+                _User_Nam     B800     B800       FA     0
+                _User_Nam     B700     B700       FA     0
+                _User_Nam     B600     B600       FA     0
+                _User_Nam     B500     B500       FA     0
+                _User_Nam     B400     B400       FA     0
+                _User_Nam     B300     B300       FA     0
+                _User_Nam     B200     B200       FA     0
+                _User_Nam     3D00     3D00       FA     0
+                _User_Nam     B100     B100       FA     0
+                _User_Nam     B000     B000       FA     0
+                _User_Nam     AF00     AF00       FA     0
+                _User_Nam     AE00     AE00       FA     0
+                _User_Nam     AD00     AD00       FA     0
+                _User_Nam     AC00     AC00       FA     0
+                _User_Nam     AB00     AB00       FA     0
+                _User_Nam     AA00     AA00       FA     0
+                _User_Nam     A900     A900       FA     0
+                _User_Nam     A800     A800       FA     0
+                _User_Nam     3C00     3C00       FA     0
+                _User_Nam     A700     A700       FA     0
+                _User_Nam     A600     A600       FA     0
+                _User_Nam     A500     A500       FA     0
+                _User_Nam     A400     A400       FA     0
+                _User_Nam     A300     A300       FA     0
+                _User_Nam     A200     A200       FA     0
+                _User_Nam     A100     A100       FA     0
+                _User_Nam     A000     A000       FA     0
+                _User_Nam     9F00     9F00       FA     0
+                _User_Nam     9E00     9E00       FA     0
+                _User_Nam     3B00     3B00       FA     0
+                _User_Nam     9D00     9D00       FA     0
+                _User_Nam     9C00     9C00       FA     0
+                _User_Nam     9B00     9B00       FA     0
+                _User_Nam     9A00     9A00       FA     0
+                _User_Nam     9900     9900       FA     0
+                _User_Nam     9800     9800       FA     0
+                _User_Nam     9700     9700       FA     0
+                _User_Nam     9600     9600       FA     0
+                _User_Nam     9500     9500       FA     0
+                _User_Nam     9400     9400       FA     0
+                _User_Nam     3A00     3A00       FA     0
+                _User_Nam     3100     3100       FA     0
+                _User_Nam     3000     3000       FA     0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+                mediumcon     CFFA     CFFA       F8     0
+
+        CLASS   COMRAM         
+                cstackCOM        1        1       41     1
+                bssCOMRAM       42       42       13     1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+                bssBIGRAM      200      200      C73     1
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+                cstackBAN       C1       C1       1C     1
+                bssBANK0        60       60       61     1
+
+        CLASS   BANK1          
+                bssBANK1       100      100      100     1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   BANK4          
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   BANK15         
+
+        CLASS   SFR            
+
+        CLASS   FARRAM         
+
+        CLASS   CONFIG         
+                config      300000   300000        A     0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+                eeprom_da   F00000   F00000        8     0
+
+
+
+SEGMENTS        Name            Load    Length   Top    Selector   Space  Class
+
+                reset_vec       000000  000004  000004         0       0  CODE    
+                cstackCOMRAM    000001  000054  000055         1       1  COMRAM  
+                intcode         000008  00205C  002064         4       0  CODE    
+                bssBANK0        000060  00007D  0000DD        60       1  BANK0   
+                bssBANK1        000100  000100  000200       100       1  BANK1   
+                bssBIGRAM       000200  000C73  000E73       200       1  BIGRAM  
+                _User_Name_text 003000  0000FA  0030FA      1800       0  CODE    
+                _User_Name1_tex 003100  0000FA  0031FA      1880       0  CODE    
+                _User_Name2_tex 003200  0000FA  0032FA      1900       0  CODE    
+                _User_Name3_tex 003300  0000FA  0033FA      1980       0  CODE    
+                _User_Name4_tex 003400  0000FA  0034FA      1A00       0  CODE    
+                _User_Name5_tex 003500  0000FA  0035FA      1A80       0  CODE    
+                _User_Name6_tex 003600  0000FA  0036FA      1B00       0  CODE    
+                _User_Name7_tex 003700  0000FA  0037FA      1B80       0  CODE    
+                _User_Name8_tex 003800  0000FA  0038FA      1C00       0  CODE    
+                _User_Name9_tex 003900  0000FA  0039FA      1C80       0  CODE    
+                _User_Name10_te 003A00  0000FA  003AFA      1D00       0  CODE    
+                _User_Name11_te 003B00  0000FA  003BFA      1D80       0  CODE    
+                _User_Name12_te 003C00  0000FA  003CFA      1E00       0  CODE    
+                _User_Name13_te 003D00  0000FA  003DFA      1E80       0  CODE    
+                _User_Name14_te 003E00  0000FA  003EFA      1F00       0  CODE    
+                _User_Name15_te 003F00  0000FA  003FFA      1F80       0  CODE    
+                _User_Name16_te 004000  0000FA  0040FA      2000       0  CODE    
+                _User_Name17_te 004100  0000FA  0041FA      2080       0  CODE    
+                _User_Name18_te 004200  0000FA  0042FA      2100       0  CODE    
+                _User_Name19_te 004300  0000FA  0043FA      2180       0  CODE    
+                _User_Name20_te 004400  0000FA  0044FA      2200       0  CODE    
+                _User_Name21_te 004500  0000FA  0045FA      2280       0  CODE    
+                _User_Name22_te 004600  0000FA  0046FA      2300       0  CODE    
+                _User_Name23_te 004700  0000FA  0047FA      2380       0  CODE    
+                _User_Name24_te 004800  0000FA  0048FA      2400       0  CODE    
+                _User_Name25_te 004900  0000FA  0049FA      2480       0  CODE    
+                _User_Name26_te 004A00  0000FA  004AFA      2500       0  CODE    
+                _User_Name27_te 004B00  0000FA  004BFA      2580       0  CODE    
+                _User_Name28_te 004C00  0000FA  004CFA      2600       0  CODE    
+                _User_Name29_te 004D00  0000FA  004DFA      2680       0  CODE    
+                _User_Name30_te 004E00  0000FA  004EFA      2700       0  CODE    
+                _User_Name31_te 004F00  0000FA  004FFA      2780       0  CODE    
+                _User_Name32_te 005000  0000FA  0050FA      2800       0  CODE    
+                _User_Name33_te 005100  0000FA  0051FA      2880       0  CODE    
+                _User_Name34_te 005200  0000FA  0052FA      2900       0  CODE    
+                _User_Name35_te 005300  0000FA  0053FA      2980       0  CODE    
+                _User_Name36_te 005400  0000FA  0054FA      2A00       0  CODE    
+                _User_Name37_te 005500  0000FA  0055FA      2A80       0  CODE    
+                _User_Name38_te 005600  0000FA  0056FA      2B00       0  CODE    
+                _User_Name39_te 005700  0000FA  0057FA      2B80       0  CODE    
+                _User_Name40_te 005800  0000FA  0058FA      2C00       0  CODE    
+                _User_Name41_te 005900  0000FA  0059FA      2C80       0  CODE    
+                _User_Name42_te 005A00  0000FA  005AFA      2D00       0  CODE    
+                _User_Name43_te 005B00  0000FA  005BFA      2D80       0  CODE    
+                _User_Name44_te 005C00  0000FA  005CFA      2E00       0  CODE    
+                _User_Name45_te 005D00  0000FA  005DFA      2E80       0  CODE    
+                _User_Name46_te 005E00  0000FA  005EFA      2F00       0  CODE    
+                _User_Name47_te 005F00  0000FA  005FFA      2F80       0  CODE    
+                _User_Name48_te 006000  0000FA  0060FA      3000       0  CODE    
+                _User_Name49_te 006100  0000FA  0061FA      3080       0  CODE    
+                _User_Name50_te 006200  0000FA  0062FA      3100       0  CODE    
+                _User_Name51_te 006300  0000FA  0063FA      3180       0  CODE    
+                _User_Name52_te 006400  0000FA  0064FA      3200       0  CODE    
+                _User_Name53_te 006500  0000FA  0065FA      3280       0  CODE    
+                _User_Name54_te 006600  0000FA  0066FA      3300       0  CODE    
+                _User_Name55_te 006700  0000FA  0067FA      3380       0  CODE    
+                _User_Name56_te 006800  0000FA  0068FA      3400       0  CODE    
+                _User_Name57_te 006900  0000FA  0069FA      3480       0  CODE    
+                _User_Name58_te 006A00  0000FA  006AFA      3500       0  CODE    
+                _User_Name59_te 006B00  0000FA  006BFA      3580       0  CODE    
+                _User_Name60_te 006C00  0000FA  006CFA      3600       0  CODE    
+                _User_Name61_te 006D00  0000FA  006DFA      3680       0  CODE    
+                _User_Name62_te 006E00  0000FA  006EFA      3700       0  CODE    
+                _User_Name63_te 006F00  0000FA  006FFA      3780       0  CODE    
+                _User_Name64_te 007000  0000FA  0070FA      3800       0  CODE    
+                _User_Name65_te 007100  0000FA  0071FA      3880       0  CODE    
+                _User_Name66_te 007200  0000FA  0072FA      3900       0  CODE    
+                _User_Name67_te 007300  0000FA  0073FA      3980       0  CODE    
+                _User_Name68_te 007400  0000FA  0074FA      3A00       0  CODE    
+                _User_Name69_te 007500  0000FA  0075FA      3A80       0  CODE    
+                _User_Name70_te 007600  0000FA  0076FA      3B00       0  CODE    
+                _User_Name71_te 007700  0000FA  0077FA      3B80       0  CODE    
+                _User_Name72_te 007800  0000FA  0078FA      3C00       0  CODE    
+                _User_Name73_te 007900  0000FA  0079FA      3C80       0  CODE    
+                _User_Name74_te 007A00  0000FA  007AFA      3D00       0  CODE    
+                _User_Name75_te 007B00  0000FA  007BFA      3D80       0  CODE    
+                _User_Name76_te 007C00  0000FA  007CFA      3E00       0  CODE    
+                _User_Name77_te 007D00  0000FA  007DFA      3E80       0  CODE    
+                _User_Name78_te 007E00  0000FA  007EFA      3F00       0  CODE    
+                _User_Name79_te 007F00  0000FA  007FFA      3F80       0  CODE    
+                _User_Name80_te 008000  0000FA  0080FA      4000       0  CODE    
+                _User_Name81_te 008100  0000FA  0081FA      4080       0  CODE    
+                _User_Name82_te 008200  0000FA  0082FA      4100       0  CODE    
+                _User_Name83_te 008300  0000FA  0083FA      4180       0  CODE    
+                _User_Name84_te 008400  0000FA  0084FA      4200       0  CODE    
+                _User_Name85_te 008500  0000FA  0085FA      4280       0  CODE    
+                _User_Name86_te 008600  0000FA  0086FA      4300       0  CODE    
+                _User_Name87_te 008700  0000FA  0087FA      4380       0  CODE    
+                _User_Name88_te 008800  0000FA  0088FA      4400       0  CODE    
+                _User_Name89_te 008900  0000FA  0089FA      4480       0  CODE    
+                _User_Name90_te 008A00  0000FA  008AFA      4500       0  CODE    
+                _User_Name91_te 008B00  0000FA  008BFA      4580       0  CODE    
+                _User_Name92_te 008C00  0000FA  008CFA      4600       0  CODE    
+                _User_Name93_te 008D00  0000FA  008DFA      4680       0  CODE    
+                _User_Name94_te 008E00  0000FA  008EFA      4700       0  CODE    
+                _User_Name95_te 008F00  0000FA  008FFA      4780       0  CODE    
+                _User_Name96_te 009000  0000FA  0090FA      4800       0  CODE    
+                _User_Name97_te 009100  0000FA  0091FA      4880       0  CODE    
+                _User_Name98_te 009200  0000FA  0092FA      4900       0  CODE    
+                _User_Name99_te 009300  0000FA  0093FA      4980       0  CODE    
+                _User_Name100_t 009400  0000FA  0094FA      4A00       0  CODE    
+                _User_Name101_t 009500  0000FA  0095FA      4A80       0  CODE    
+                _User_Name102_t 009600  0000FA  0096FA      4B00       0  CODE    
+                _User_Name103_t 009700  0000FA  0097FA      4B80       0  CODE    
+                _User_Name104_t 009800  0000FA  0098FA      4C00       0  CODE    
+                _User_Name105_t 009900  0000FA  0099FA      4C80       0  CODE    
+                _User_Name106_t 009A00  0000FA  009AFA      4D00       0  CODE    
+                _User_Name107_t 009B00  0000FA  009BFA      4D80       0  CODE    
+                _User_Name108_t 009C00  0000FA  009CFA      4E00       0  CODE    
+                _User_Name109_t 009D00  0000FA  009DFA      4E80       0  CODE    
+                _User_Name110_t 009E00  0000FA  009EFA      4F00       0  CODE    
+                _User_Name111_t 009F00  0000FA  009FFA      4F80       0  CODE    
+                _User_Name112_t 00A000  0000FA  00A0FA      5000       0  CODE    
+                _User_Name113_t 00A100  0000FA  00A1FA      5080       0  CODE    
+                _User_Name114_t 00A200  0000FA  00A2FA      5100       0  CODE    
+                _User_Name115_t 00A300  0000FA  00A3FA      5180       0  CODE    
+                _User_Name116_t 00A400  0000FA  00A4FA      5200       0  CODE    
+                _User_Name117_t 00A500  0000FA  00A5FA      5280       0  CODE    
+                _User_Name118_t 00A600  0000FA  00A6FA      5300       0  CODE    
+                _User_Name119_t 00A700  0000FA  00A7FA      5380       0  CODE    
+                _User_Name120_t 00A800  0000FA  00A8FA      5400       0  CODE    
+                _User_Name121_t 00A900  0000FA  00A9FA      5480       0  CODE    
+                _User_Name122_t 00AA00  0000FA  00AAFA      5500       0  CODE    
+                _User_Name123_t 00AB00  0000FA  00ABFA      5580       0  CODE    
+                _User_Name124_t 00AC00  0000FA  00ACFA      5600       0  CODE    
+                _User_Name125_t 00AD00  0000FA  00ADFA      5680       0  CODE    
+                _User_Name126_t 00AE00  0000FA  00AEFA      5700       0  CODE    
+                _User_Name127_t 00AF00  0000FA  00AFFA      5780       0  CODE    
+                _User_Name128_t 00B000  0000FA  00B0FA      5800       0  CODE    
+                _User_Name129_t 00B100  0000FA  00B1FA      5880       0  CODE    
+                _User_Name130_t 00B200  0000FA  00B2FA      5900       0  CODE    
+                _User_Name131_t 00B300  0000FA  00B3FA      5980       0  CODE    
+                _User_Name132_t 00B400  0000FA  00B4FA      5A00       0  CODE    
+                _User_Name133_t 00B500  0000FA  00B5FA      5A80       0  CODE    
+                _User_Name134_t 00B600  0000FA  00B6FA      5B00       0  CODE    
+                _User_Name135_t 00B700  0000FA  00B7FA      5B80       0  CODE    
+                _User_Name136_t 00B800  0000FA  00B8FA      5C00       0  CODE    
+                _User_Name137_t 00B900  0000FA  00B9FA      5C80       0  CODE    
+                _User_Name138_t 00BA00  0000FA  00BAFA      5D00       0  CODE    
+                _User_Name139_t 00BB00  0000FA  00BBFA      5D80       0  CODE    
+                _User_Name140_t 00BC00  0000FA  00BCFA      5E00       0  CODE    
+                _User_Name141_t 00BD00  0000FA  00BDFA      5E80       0  CODE    
+                _User_Name142_t 00BE00  0000FA  00BEFA      5F00       0  CODE    
+                _User_Name143_t 00BF00  0000FA  00BFFA      5F80       0  CODE    
+                _User_Name144_t 00C000  0000FA  00C0FA      6000       0  CODE    
+                _User_Name145_t 00C100  0000FA  00C1FA      6080       0  CODE    
+                _User_Name146_t 00C200  0000FA  00C2FA      6100       0  CODE    
+                _User_Name147_t 00C300  0000FA  00C3FA      6180       0  CODE    
+                _User_Name148_t 00C400  0000FA  00C4FA      6200       0  CODE    
+                _User_Name149_t 00C500  0000FA  00C5FA      6280       0  CODE    
+                _User_Name150_t 00C600  0000FA  00C6FA      6300       0  CODE    
+                _User_Name151_t 00C700  0000FA  00C7FA      6380       0  CODE    
+                _User_Name152_t 00C800  0000FA  00C8FA      6400       0  CODE    
+                _User_Name153_t 00C900  0000FA  00C9FA      6480       0  CODE    
+                _User_Name154_t 00CA00  0000FA  00CAFA      6500       0  CODE    
+                _User_Name155_t 00CB00  0000FA  00CBFA      6580       0  CODE    
+                _User_Name156_t 00CC00  0000FA  00CCFA      6600       0  CODE    
+                _User_Name157_t 00CD00  0000FA  00CDFA      6680       0  CODE    
+                _User_Name158_t 00CE00  0000FA  00CEFA      6700       0  CODE    
+                _User_Name159_t 00CF00  0000FA  00CFFA      6780       0  CODE    
+                mediumconst     00CFFA  0000F8  00D0F2      67FD       0  MEDIUMCO
+                config          300000  00000A  30000A    300000       0  CONFIG  
+                eeprom_data     F00000  000008  F00008    F00000       0  EEDATA  
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0000DD-0000FF               23
+        BANK14           000E73-000EFF               8D
+        BANK15           000F00-000F37               38
+        BIGRAM           000055-00005F                B
+                         0000DD-0000FF               23
+                         000E73-000F37               C5
+        CODE             000004-000007                4
+                         002064-002FFF              F9C
+                         0030FA-0030FF                6
+                         0031FA-0031FF                6
+                         0032FA-0032FF                6
+                         0033FA-0033FF                6
+                         0034FA-0034FF                6
+                         0035FA-0035FF                6
+                         0036FA-0036FF                6
+                         0037FA-0037FF                6
+                         0038FA-0038FF                6
+                         0039FA-0039FF                6
+                         003AFA-003AFF                6
+                         003BFA-003BFF                6
+                         003CFA-003CFF                6
+                         003DFA-003DFF                6
+                         003EFA-003EFF                6
+                         003FFA-003FFF                6
+                         0040FA-0040FF                6
+                         0041FA-0041FF                6
+                         0042FA-0042FF                6
+                         0043FA-0043FF                6
+                         0044FA-0044FF                6
+                         0045FA-0045FF                6
+                         0046FA-0046FF                6
+                         0047FA-0047FF                6
+                         0048FA-0048FF                6
+                         0049FA-0049FF                6
+                         004AFA-004AFF                6
+                         004BFA-004BFF                6
+                         004CFA-004CFF                6
+                         004DFA-004DFF                6
+                         004EFA-004EFF                6
+                         004FFA-004FFF                6
+                         0050FA-0050FF                6
+                         0051FA-0051FF                6
+                         0052FA-0052FF                6
+                         0053FA-0053FF                6
+                         0054FA-0054FF                6
+                         0055FA-0055FF                6
+                         0056FA-0056FF                6
+                         0057FA-0057FF                6
+                         0058FA-0058FF                6
+                         0059FA-0059FF                6
+                         005AFA-005AFF                6
+                         005BFA-005BFF                6
+                         005CFA-005CFF                6
+                         005DFA-005DFF                6
+                         005EFA-005EFF                6
+                         005FFA-005FFF                6
+                         0060FA-0060FF                6
+                         0061FA-0061FF                6
+                         0062FA-0062FF                6
+                         0063FA-0063FF                6
+                         0064FA-0064FF                6
+                         0065FA-0065FF                6
+                         0066FA-0066FF                6
+                         0067FA-0067FF                6
+                         0068FA-0068FF                6
+                         0069FA-0069FF                6
+                         006AFA-006AFF                6
+                         006BFA-006BFF                6
+                         006CFA-006CFF                6
+                         006DFA-006DFF                6
+                         006EFA-006EFF                6
+                         006FFA-006FFF                6
+                         0070FA-0070FF                6
+                         0071FA-0071FF                6
+                         0072FA-0072FF                6
+                         0073FA-0073FF                6
+                         0074FA-0074FF                6
+                         0075FA-0075FF                6
+                         0076FA-0076FF                6
+                         0077FA-0077FF                6
+                         0078FA-0078FF                6
+                         0079FA-0079FF                6
+                         007AFA-007AFF                6
+                         007BFA-007BFF                6
+                         007CFA-007CFF                6
+                         007DFA-007DFF                6
+                         007EFA-007EFF                6
+                         007FFA-007FFF                6
+                         0080FA-0080FF                6
+                         0081FA-0081FF                6
+                         0082FA-0082FF                6
+                         0083FA-0083FF                6
+                         0084FA-0084FF                6
+                         0085FA-0085FF                6
+                         0086FA-0086FF                6
+                         0087FA-0087FF                6
+                         0088FA-0088FF                6
+                         0089FA-0089FF                6
+                         008AFA-008AFF                6
+                         008BFA-008BFF                6
+                         008CFA-008CFF                6
+                         008DFA-008DFF                6
+                         008EFA-008EFF                6
+                         008FFA-008FFF                6
+                         0090FA-0090FF                6
+                         0091FA-0091FF                6
+                         0092FA-0092FF                6
+                         0093FA-0093FF                6
+                         0094FA-0094FF                6
+                         0095FA-0095FF                6
+                         0096FA-0096FF                6
+                         0097FA-0097FF                6
+                         0098FA-0098FF                6
+                         0099FA-0099FF                6
+                         009AFA-009AFF                6
+                         009BFA-009BFF                6
+                         009CFA-009CFF                6
+                         009DFA-009DFF                6
+                         009EFA-009EFF                6
+                         009FFA-009FFF                6
+                         00A0FA-00A0FF                6
+                         00A1FA-00A1FF                6
+                         00A2FA-00A2FF                6
+                         00A3FA-00A3FF                6
+                         00A4FA-00A4FF                6
+                         00A5FA-00A5FF                6
+                         00A6FA-00A6FF                6
+                         00A7FA-00A7FF                6
+                         00A8FA-00A8FF                6
+                         00A9FA-00A9FF                6
+                         00AAFA-00AAFF                6
+                         00ABFA-00ABFF                6
+                         00ACFA-00ACFF                6
+                         00ADFA-00ADFF                6
+                         00AEFA-00AEFF                6
+                         00AFFA-00AFFF                6
+                         00B0FA-00B0FF                6
+                         00B1FA-00B1FF                6
+                         00B2FA-00B2FF                6
+                         00B3FA-00B3FF                6
+                         00B4FA-00B4FF                6
+                         00B5FA-00B5FF                6
+                         00B6FA-00B6FF                6
+                         00B7FA-00B7FF                6
+                         00B8FA-00B8FF                6
+                         00B9FA-00B9FF                6
+                         00BAFA-00BAFF                6
+                         00BBFA-00BBFF                6
+                         00BCFA-00BCFF                6
+                         00BDFA-00BDFF                6
+                         00BEFA-00BEFF                6
+                         00BFFA-00BFFF                6
+                         00C0FA-00C0FF                6
+                         00C1FA-00C1FF                6
+                         00C2FA-00C2FF                6
+                         00C3FA-00C3FF                6
+                         00C4FA-00C4FF                6
+                         00C5FA-00C5FF                6
+                         00C6FA-00C6FF                6
+                         00C7FA-00C7FF                6
+                         00C8FA-00C8FF                6
+                         00C9FA-00C9FF                6
+                         00CAFA-00CAFF                6
+                         00CBFA-00CBFF                6
+                         00CCFA-00CCFF                6
+                         00CDFA-00CDFF                6
+                         00CEFA-00CEFF                6
+                         00D0F2-00FFFF             2F0E
+        COMRAM           000055-00005F                B
+        CONFIG           30000A-30000D                4
+        CONST            000004-000007                4
+                         002064-002FFF              F9C
+                         0030FA-0030FF                6
+                         0031FA-0031FF                6
+                         0032FA-0032FF                6
+                         0033FA-0033FF                6
+                         0034FA-0034FF                6
+                         0035FA-0035FF                6
+                         0036FA-0036FF                6
+                         0037FA-0037FF                6
+                         0038FA-0038FF                6
+                         0039FA-0039FF                6
+                         003AFA-003AFF                6
+                         003BFA-003BFF                6
+                         003CFA-003CFF                6
+                         003DFA-003DFF                6
+                         003EFA-003EFF                6
+                         003FFA-003FFF                6
+                         0040FA-0040FF                6
+                         0041FA-0041FF                6
+                         0042FA-0042FF                6
+                         0043FA-0043FF                6
+                         0044FA-0044FF                6
+                         0045FA-0045FF                6
+                         0046FA-0046FF                6
+                         0047FA-0047FF                6
+                         0048FA-0048FF                6
+                         0049FA-0049FF                6
+                         004AFA-004AFF                6
+                         004BFA-004BFF                6
+                         004CFA-004CFF                6
+                         004DFA-004DFF                6
+                         004EFA-004EFF                6
+                         004FFA-004FFF                6
+                         0050FA-0050FF                6
+                         0051FA-0051FF                6
+                         0052FA-0052FF                6
+                         0053FA-0053FF                6
+                         0054FA-0054FF                6
+                         0055FA-0055FF                6
+                         0056FA-0056FF                6
+                         0057FA-0057FF                6
+                         0058FA-0058FF                6
+                         0059FA-0059FF                6
+                         005AFA-005AFF                6
+                         005BFA-005BFF                6
+                         005CFA-005CFF                6
+                         005DFA-005DFF                6
+                         005EFA-005EFF                6
+                         005FFA-005FFF                6
+                         0060FA-0060FF                6
+                         0061FA-0061FF                6
+                         0062FA-0062FF                6
+                         0063FA-0063FF                6
+                         0064FA-0064FF                6
+                         0065FA-0065FF                6
+                         0066FA-0066FF                6
+                         0067FA-0067FF                6
+                         0068FA-0068FF                6
+                         0069FA-0069FF                6
+                         006AFA-006AFF                6
+                         006BFA-006BFF                6
+                         006CFA-006CFF                6
+                         006DFA-006DFF                6
+                         006EFA-006EFF                6
+                         006FFA-006FFF                6
+                         0070FA-0070FF                6
+                         0071FA-0071FF                6
+                         0072FA-0072FF                6
+                         0073FA-0073FF                6
+                         0074FA-0074FF                6
+                         0075FA-0075FF                6
+                         0076FA-0076FF                6
+                         0077FA-0077FF                6
+                         0078FA-0078FF                6
+                         0079FA-0079FF                6
+                         007AFA-007AFF                6
+                         007BFA-007BFF                6
+                         007CFA-007CFF                6
+                         007DFA-007DFF                6
+                         007EFA-007EFF                6
+                         007FFA-007FFF                6
+                         0080FA-0080FF                6
+                         0081FA-0081FF                6
+                         0082FA-0082FF                6
+                         0083FA-0083FF                6
+                         0084FA-0084FF                6
+                         0085FA-0085FF                6
+                         0086FA-0086FF                6
+                         0087FA-0087FF                6
+                         0088FA-0088FF                6
+                         0089FA-0089FF                6
+                         008AFA-008AFF                6
+                         008BFA-008BFF                6
+                         008CFA-008CFF                6
+                         008DFA-008DFF                6
+                         008EFA-008EFF                6
+                         008FFA-008FFF                6
+                         0090FA-0090FF                6
+                         0091FA-0091FF                6
+                         0092FA-0092FF                6
+                         0093FA-0093FF                6
+                         0094FA-0094FF                6
+                         0095FA-0095FF                6
+                         0096FA-0096FF                6
+                         0097FA-0097FF                6
+                         0098FA-0098FF                6
+                         0099FA-0099FF                6
+                         009AFA-009AFF                6
+                         009BFA-009BFF                6
+                         009CFA-009CFF                6
+                         009DFA-009DFF                6
+                         009EFA-009EFF                6
+                         009FFA-009FFF                6
+                         00A0FA-00A0FF                6
+                         00A1FA-00A1FF                6
+                         00A2FA-00A2FF                6
+                         00A3FA-00A3FF                6
+                         00A4FA-00A4FF                6
+                         00A5FA-00A5FF                6
+                         00A6FA-00A6FF                6
+                         00A7FA-00A7FF                6
+                         00A8FA-00A8FF                6
+                         00A9FA-00A9FF                6
+                         00AAFA-00AAFF                6
+                         00ABFA-00ABFF                6
+                         00ACFA-00ACFF                6
+                         00ADFA-00ADFF                6
+                         00AEFA-00AEFF                6
+                         00AFFA-00AFFF                6
+                         00B0FA-00B0FF                6
+                         00B1FA-00B1FF                6
+                         00B2FA-00B2FF                6
+                         00B3FA-00B3FF                6
+                         00B4FA-00B4FF                6
+                         00B5FA-00B5FF                6
+                         00B6FA-00B6FF                6
+                         00B7FA-00B7FF                6
+                         00B8FA-00B8FF                6
+                         00B9FA-00B9FF                6
+                         00BAFA-00BAFF                6
+                         00BBFA-00BBFF                6
+                         00BCFA-00BCFF                6
+                         00BDFA-00BDFF                6
+                         00BEFA-00BEFF                6
+                         00BFFA-00BFFF                6
+                         00C0FA-00C0FF                6
+                         00C1FA-00C1FF                6
+                         00C2FA-00C2FF                6
+                         00C3FA-00C3FF                6
+                         00C4FA-00C4FF                6
+                         00C5FA-00C5FF                6
+                         00C6FA-00C6FF                6
+                         00C7FA-00C7FF                6
+                         00C8FA-00C8FF                6
+                         00C9FA-00C9FF                6
+                         00CAFA-00CAFF                6
+                         00CBFA-00CBFF                6
+                         00CCFA-00CCFF                6
+                         00CDFA-00CDFF                6
+                         00CEFA-00CEFF                6
+                         00D0F2-00FFFF             2F0E
+        EEDATA           F00008-F003FF              3F8
+        IDLOC            200000-200007                8
+        MEDIUMCONST      002064-002FFF              F9C
+                         0030FA-0030FF                6
+                         0031FA-0031FF                6
+                         0032FA-0032FF                6
+                         0033FA-0033FF                6
+                         0034FA-0034FF                6
+                         0035FA-0035FF                6
+                         0036FA-0036FF                6
+                         0037FA-0037FF                6
+                         0038FA-0038FF                6
+                         0039FA-0039FF                6
+                         003AFA-003AFF                6
+                         003BFA-003BFF                6
+                         003CFA-003CFF                6
+                         003DFA-003DFF                6
+                         003EFA-003EFF                6
+                         003FFA-003FFF                6
+                         0040FA-0040FF                6
+                         0041FA-0041FF                6
+                         0042FA-0042FF                6
+                         0043FA-0043FF                6
+                         0044FA-0044FF                6
+                         0045FA-0045FF                6
+                         0046FA-0046FF                6
+                         0047FA-0047FF                6
+                         0048FA-0048FF                6
+                         0049FA-0049FF                6
+                         004AFA-004AFF                6
+                         004BFA-004BFF                6
+                         004CFA-004CFF                6
+                         004DFA-004DFF                6
+                         004EFA-004EFF                6
+                         004FFA-004FFF                6
+                         0050FA-0050FF                6
+                         0051FA-0051FF                6
+                         0052FA-0052FF                6
+                         0053FA-0053FF                6
+                         0054FA-0054FF                6
+                         0055FA-0055FF                6
+                         0056FA-0056FF                6
+                         0057FA-0057FF                6
+                         0058FA-0058FF                6
+                         0059FA-0059FF                6
+                         005AFA-005AFF                6
+                         005BFA-005BFF                6
+                         005CFA-005CFF                6
+                         005DFA-005DFF                6
+                         005EFA-005EFF                6
+                         005FFA-005FFF                6
+                         0060FA-0060FF                6
+                         0061FA-0061FF                6
+                         0062FA-0062FF                6
+                         0063FA-0063FF                6
+                         0064FA-0064FF                6
+                         0065FA-0065FF                6
+                         0066FA-0066FF                6
+                         0067FA-0067FF                6
+                         0068FA-0068FF                6
+                         0069FA-0069FF                6
+                         006AFA-006AFF                6
+                         006BFA-006BFF                6
+                         006CFA-006CFF                6
+                         006DFA-006DFF                6
+                         006EFA-006EFF                6
+                         006FFA-006FFF                6
+                         0070FA-0070FF                6
+                         0071FA-0071FF                6
+                         0072FA-0072FF                6
+                         0073FA-0073FF                6
+                         0074FA-0074FF                6
+                         0075FA-0075FF                6
+                         0076FA-0076FF                6
+                         0077FA-0077FF                6
+                         0078FA-0078FF                6
+                         0079FA-0079FF                6
+                         007AFA-007AFF                6
+                         007BFA-007BFF                6
+                         007CFA-007CFF                6
+                         007DFA-007DFF                6
+                         007EFA-007EFF                6
+                         007FFA-007FFF                6
+                         0080FA-0080FF                6
+                         0081FA-0081FF                6
+                         0082FA-0082FF                6
+                         0083FA-0083FF                6
+                         0084FA-0084FF                6
+                         0085FA-0085FF                6
+                         0086FA-0086FF                6
+                         0087FA-0087FF                6
+                         0088FA-0088FF                6
+                         0089FA-0089FF                6
+                         008AFA-008AFF                6
+                         008BFA-008BFF                6
+                         008CFA-008CFF                6
+                         008DFA-008DFF                6
+                         008EFA-008EFF                6
+                         008FFA-008FFF                6
+                         0090FA-0090FF                6
+                         0091FA-0091FF                6
+                         0092FA-0092FF                6
+                         0093FA-0093FF                6
+                         0094FA-0094FF                6
+                         0095FA-0095FF                6
+                         0096FA-0096FF                6
+                         0097FA-0097FF                6
+                         0098FA-0098FF                6
+                         0099FA-0099FF                6
+                         009AFA-009AFF                6
+                         009BFA-009BFF                6
+                         009CFA-009CFF                6
+                         009DFA-009DFF                6
+                         009EFA-009EFF                6
+                         009FFA-009FFF                6
+                         00A0FA-00A0FF                6
+                         00A1FA-00A1FF                6
+                         00A2FA-00A2FF                6
+                         00A3FA-00A3FF                6
+                         00A4FA-00A4FF                6
+                         00A5FA-00A5FF                6
+                         00A6FA-00A6FF                6
+                         00A7FA-00A7FF                6
+                         00A8FA-00A8FF                6
+                         00A9FA-00A9FF                6
+                         00AAFA-00AAFF                6
+                         00ABFA-00ABFF                6
+                         00ACFA-00ACFF                6
+                         00ADFA-00ADFF                6
+                         00AEFA-00AEFF                6
+                         00AFFA-00AFFF                6
+                         00B0FA-00B0FF                6
+                         00B1FA-00B1FF                6
+                         00B2FA-00B2FF                6
+                         00B3FA-00B3FF                6
+                         00B4FA-00B4FF                6
+                         00B5FA-00B5FF                6
+                         00B6FA-00B6FF                6
+                         00B7FA-00B7FF                6
+                         00B8FA-00B8FF                6
+                         00B9FA-00B9FF                6
+                         00BAFA-00BAFF                6
+                         00BBFA-00BBFF                6
+                         00BCFA-00BCFF                6
+                         00BDFA-00BDFF                6
+                         00BEFA-00BEFF                6
+                         00BFFA-00BFFF                6
+                         00C0FA-00C0FF                6
+                         00C1FA-00C1FF                6
+                         00C2FA-00C2FF                6
+                         00C3FA-00C3FF                6
+                         00C4FA-00C4FF                6
+                         00C5FA-00C5FF                6
+                         00C6FA-00C6FF                6
+                         00C7FA-00C7FF                6
+                         00C8FA-00C8FF                6
+                         00C9FA-00C9FF                6
+                         00CAFA-00CAFF                6
+                         00CBFA-00CBFF                6
+                         00CCFA-00CCFF                6
+                         00CDFA-00CDFF                6
+                         00CEFA-00CEFF                6
+                         00D0F2-00FFFF             2F0E
+        RAM              0000DD-0000FF               23
+                         000E73-000F37               8D
+        SFR              000F38-000FFF               28
+        SMALLCONST       002064-002FFF              100
+                         0030FA-0030FF                6
+                         0031FA-0031FF                6
+                         0032FA-0032FF                6
+                         0033FA-0033FF                6
+                         0034FA-0034FF                6
+                         0035FA-0035FF                6
+                         0036FA-0036FF                6
+                         0037FA-0037FF                6
+                         0038FA-0038FF                6
+                         0039FA-0039FF                6
+                         003AFA-003AFF                6
+                         003BFA-003BFF                6
+                         003CFA-003CFF                6
+                         003DFA-003DFF                6
+                         003EFA-003EFF                6
+                         003FFA-003FFF                6
+                         0040FA-0040FF                6
+                         0041FA-0041FF                6
+                         0042FA-0042FF                6
+                         0043FA-0043FF                6
+                         0044FA-0044FF                6
+                         0045FA-0045FF                6
+                         0046FA-0046FF                6
+                         0047FA-0047FF                6
+                         0048FA-0048FF                6
+                         0049FA-0049FF                6
+                         004AFA-004AFF                6
+                         004BFA-004BFF                6
+                         004CFA-004CFF                6
+                         004DFA-004DFF                6
+                         004EFA-004EFF                6
+                         004FFA-004FFF                6
+                         0050FA-0050FF                6
+                         0051FA-0051FF                6
+                         0052FA-0052FF                6
+                         0053FA-0053FF                6
+                         0054FA-0054FF                6
+                         0055FA-0055FF                6
+                         0056FA-0056FF                6
+                         0057FA-0057FF                6
+                         0058FA-0058FF                6
+                         0059FA-0059FF                6
+                         005AFA-005AFF                6
+                         005BFA-005BFF                6
+                         005CFA-005CFF                6
+                         005DFA-005DFF                6
+                         005EFA-005EFF                6
+                         005FFA-005FFF                6
+                         0060FA-0060FF                6
+                         0061FA-0061FF                6
+                         0062FA-0062FF                6
+                         0063FA-0063FF                6
+                         0064FA-0064FF                6
+                         0065FA-0065FF                6
+                         0066FA-0066FF                6
+                         0067FA-0067FF                6
+                         0068FA-0068FF                6
+                         0069FA-0069FF                6
+                         006AFA-006AFF                6
+                         006BFA-006BFF                6
+                         006CFA-006CFF                6
+                         006DFA-006DFF                6
+                         006EFA-006EFF                6
+                         006FFA-006FFF                6
+                         0070FA-0070FF                6
+                         0071FA-0071FF                6
+                         0072FA-0072FF                6
+                         0073FA-0073FF                6
+                         0074FA-0074FF                6
+                         0075FA-0075FF                6
+                         0076FA-0076FF                6
+                         0077FA-0077FF                6
+                         0078FA-0078FF                6
+                         0079FA-0079FF                6
+                         007AFA-007AFF                6
+                         007BFA-007BFF                6
+                         007CFA-007CFF                6
+                         007DFA-007DFF                6
+                         007EFA-007EFF                6
+                         007FFA-007FFF                6
+                         0080FA-0080FF                6
+                         0081FA-0081FF                6
+                         0082FA-0082FF                6
+                         0083FA-0083FF                6
+                         0084FA-0084FF                6
+                         0085FA-0085FF                6
+                         0086FA-0086FF                6
+                         0087FA-0087FF                6
+                         0088FA-0088FF                6
+                         0089FA-0089FF                6
+                         008AFA-008AFF                6
+                         008BFA-008BFF                6
+                         008CFA-008CFF                6
+                         008DFA-008DFF                6
+                         008EFA-008EFF                6
+                         008FFA-008FFF                6
+                         0090FA-0090FF                6
+                         0091FA-0091FF                6
+                         0092FA-0092FF                6
+                         0093FA-0093FF                6
+                         0094FA-0094FF                6
+                         0095FA-0095FF                6
+                         0096FA-0096FF                6
+                         0097FA-0097FF                6
+                         0098FA-0098FF                6
+                         0099FA-0099FF                6
+                         009AFA-009AFF                6
+                         009BFA-009BFF                6
+                         009CFA-009CFF                6
+                         009DFA-009DFF                6
+                         009EFA-009EFF                6
+                         009FFA-009FFF                6
+                         00A0FA-00A0FF                6
+                         00A1FA-00A1FF                6
+                         00A2FA-00A2FF                6
+                         00A3FA-00A3FF                6
+                         00A4FA-00A4FF                6
+                         00A5FA-00A5FF                6
+                         00A6FA-00A6FF                6
+                         00A7FA-00A7FF                6
+                         00A8FA-00A8FF                6
+                         00A9FA-00A9FF                6
+                         00AAFA-00AAFF                6
+                         00ABFA-00ABFF                6
+                         00ACFA-00ACFF                6
+                         00ADFA-00ADFF                6
+                         00AEFA-00AEFF                6
+                         00AFFA-00AFFF                6
+                         00B0FA-00B0FF                6
+                         00B1FA-00B1FF                6
+                         00B2FA-00B2FF                6
+                         00B3FA-00B3FF                6
+                         00B4FA-00B4FF                6
+                         00B5FA-00B5FF                6
+                         00B6FA-00B6FF                6
+                         00B7FA-00B7FF                6
+                         00B8FA-00B8FF                6
+                         00B9FA-00B9FF                6
+                         00BAFA-00BAFF                6
+                         00BBFA-00BBFF                6
+                         00BCFA-00BCFF                6
+                         00BDFA-00BDFF                6
+                         00BEFA-00BEFF                6
+                         00BFFA-00BFFF                6
+                         00C0FA-00C0FF                6
+                         00C1FA-00C1FF                6
+                         00C2FA-00C2FF                6
+                         00C3FA-00C3FF                6
+                         00C4FA-00C4FF                6
+                         00C5FA-00C5FF                6
+                         00C6FA-00C6FF                6
+                         00C7FA-00C7FF                6
+                         00C8FA-00C8FF                6
+                         00C9FA-00C9FF                6
+                         00CAFA-00CAFF                6
+                         00CBFA-00CBFF                6
+                         00CCFA-00CCFF                6
+                         00CDFA-00CDFF                6
+                         00CEFA-00CEFF                6
+                         00D0F2-00FFFF              100
+
+                                  Symbol Table
+
+??_Busy_eep                          cstackCOMRAM       00000B
+??_EE_READ                           cstackCOMRAM       00000F
+??_EE_WRITE                          cstackCOMRAM       000011
+??_Frame_Buf_Read_PM                 cstackCOMRAM       00000D
+??_Frame_Buf_Write_PM                cstackCOMRAM       00000D
+??_Read_b_eep                        cstackCOMRAM       00000D
+??_Write_b_eep                       cstackCOMRAM       00000E
+??___aslmul                          cstackCOMRAM       00002A
+??___lbdiv                           cstackCOMRAM       00000C
+??___lldiv                           cstackCOMRAM       000013
+??___lmul                            cstackCOMRAM       000020
+??___lwdiv                           cstackCOMRAM       00000F
+??___wmul                            cstackCOMRAM       00000F
+??_calk_HEX_parametr                 cstackCOMRAM       00000D
+??_calk_parametr                     cstackCOMRAM       00002E
+??_ch_usart                          cstackCOMRAM       00000B
+??_change_uart_init                  cstackCOMRAM       00000D
+??_check_data                        cstackCOMRAM       00000B
+??_check_err                         cstackCOMRAM       00000B
+??_check_lenght                      cstackCOMRAM       00000F
+??_clear_buf_RX                      cstackCOMRAM       00000B
+??_convert_mypronto_short            cstackCOMRAM       000014
+??_convert_pronto_short              cstackCOMRAM       000014
+??_delay_ms                          cstackCOMRAM       00000D
+??_delay_s                           cstackCOMRAM       00000B
+??_detect_command_terminal           cstackBANK0        0000C1
+??_find_N_char                       cstackCOMRAM       000011
+??_getch                             cstackCOMRAM       00000B
+??_init_PM                           cstackCOMRAM       00000B
+??_isr                               cstackCOMRAM       000001
+??_load_command_terminal             cstackCOMRAM       000010
+??_main                              cstackCOMRAM       000041
+??_putch                             cstackCOMRAM       00000B
+??_putch_long                        cstackCOMRAM       000028
+??_putchdec                          cstackCOMRAM       00000F
+??_putchhex                          cstackCOMRAM       00000C
+??_putinthex                         cstackCOMRAM       000010
+??_putst                             cstackCOMRAM       00000E
+??_read_IRsignal                     cstackCOMRAM       00001F
+??_read_myProntobuf                  cstackCOMRAM       000020
+??_read_scanbuf                      cstackCOMRAM       000019
+??_save_scanbuf                      cstackCOMRAM       000012
+??_send_IR_signal                    cstackCOMRAM       00002F
+??_serial_setup                      cstackCOMRAM       00000C
+??_terminal_start                    cstackCOMRAM       00000E
+??_terminal_task                     cstackCOMRAM       000041
+??_toupper                           cstackCOMRAM       00000B
+??_uncode_com                        cstackCOMRAM       00000D
+??_zap                               cstackCOMRAM       00000B
+?_Busy_eep                           cstackCOMRAM       000001
+?_EE_READ                            cstackCOMRAM       00000D
+?_EE_WRITE                           cstackCOMRAM       00000E
+?_Frame_Buf_Read_PM                  cstackCOMRAM       00000B
+?_Frame_Buf_Write_PM                 cstackCOMRAM       00000B
+?_Read_b_eep                         cstackCOMRAM       00000B
+?_Write_b_eep                        cstackCOMRAM       00000B
+?___aslmul                           cstackCOMRAM       000024
+?___lbdiv                            cstackCOMRAM       00000B
+?___lldiv                            cstackCOMRAM       00000B
+?___lmul                             cstackCOMRAM       000018
+?___lwdiv                            cstackCOMRAM       00000B
+?___wmul                             cstackCOMRAM       00000B
+?_calk_HEX_parametr                  cstackCOMRAM       00000B
+?_calk_parametr                      cstackCOMRAM       00002A
+?_ch_usart                           cstackCOMRAM       000001
+?_change_uart_init                   cstackCOMRAM       000001
+?_check_data                         cstackCOMRAM       000001
+?_check_err                          cstackCOMRAM       000001
+?_check_lenght                       cstackCOMRAM       00000B
+?_clear_buf_RX                       cstackCOMRAM       000001
+?_convert_mypronto_short             cstackCOMRAM       000001
+?_convert_pronto_short               cstackCOMRAM       000001
+?_delay_ms                           cstackCOMRAM       00000B
+?_delay_s                            cstackCOMRAM       000001
+?_detect_command_terminal            cstackCOMRAM       00003F
+?_find_N_char                        cstackCOMRAM       00000B
+?_getch                              cstackCOMRAM       000001
+?_init_PM                            cstackCOMRAM       000001
+?_isr                                cstackCOMRAM       000001
+?_load_command_terminal              cstackCOMRAM       00000E
+?_main                               cstackCOMRAM       000001
+?_putch                              cstackCOMRAM       000001
+?_putch_long                         cstackCOMRAM       000024
+?_putchdec                           cstackCOMRAM       000001
+?_putchhex                           cstackCOMRAM       000001
+?_putinthex                          cstackCOMRAM       00000E
+?_putst                              cstackCOMRAM       00000C
+?_read_IRsignal                      cstackCOMRAM       000001
+?_read_myProntobuf                   cstackCOMRAM       000001
+?_read_scanbuf                       cstackCOMRAM       000001
+?_save_scanbuf                       cstackCOMRAM       000001
+?_send_IR_signal                     cstackCOMRAM       00002D
+?_serial_setup                       cstackCOMRAM       00000B
+?_terminal_start                     cstackCOMRAM       000001
+?_terminal_task                      cstackCOMRAM       000001
+?_toupper                            cstackCOMRAM       000001
+?_uncode_com                         cstackCOMRAM       00000B
+?_zap                                cstackCOMRAM       000001
+EE_READ@addr                         cstackCOMRAM       00000D
+EE_READ@c                            cstackCOMRAM       00000F
+EE_WRITE@addr                        cstackCOMRAM       00000E
+EE_WRITE@var                         cstackCOMRAM       000010
+Frame_Buf_Read_PM@adres              cstackCOMRAM       000014
+Frame_Buf_Read_PM@i                  cstackCOMRAM       000018
+Frame_Buf_Read_PM@num_pak            cstackCOMRAM       00000B
+Frame_Buf_Read_PM@work               cstackCOMRAM       000017
+Frame_Buf_Write_PM@adres_write       cstackCOMRAM       00000F
+Frame_Buf_Write_PM@i_cnt             cstackCOMRAM       000011
+Frame_Buf_Write_PM@num_pak           cstackCOMRAM       00000B
+Read_b_eep@badd                      cstackCOMRAM       00000B
+Write_b_eep@badd                     cstackCOMRAM       00000B
+Write_b_eep@bdat                     cstackCOMRAM       00000D
+_ADCON0                              (abs)              000FC2
+_ADCON1                              (abs)              000FC1
+_ADCON2                              (abs)              000FC0
+_ANSELA                              (abs)              000F38
+_ANSELB                              (abs)              000F39
+_ANSELC                              (abs)              000F3A
+_BRG161                              (abs)              007DC3
+_BRG162                              (abs)              007B83
+_BRGH1                               (abs)              007D62
+_BRGH2                               (abs)              007B92
+_Buffer_PM                           bssBANK0           000060
+_Busy_eep                            text14             00205C
+_CCP1CON                             (abs)              000FBD
+_CCPR1L                              (abs)              000FBE
+_CREN1                               (abs)              007D5C
+_CREN2                               (abs)              007B8C
+_EEADR                               (abs)              000FA9
+_EEADRH                              (abs)              000FAA
+_EECON1                              (abs)              000FA6
+_EECON1bits                          (abs)              000FA6
+_EECON2                              (abs)              000FA7
+_EEDATA                              (abs)              000FA8
+_EE_READ                             text31             001FF0
+_EE_WRITE                            text13             00200A
+_FERR1                               (abs)              007D5A
+_FERR2                               (abs)              007B8A
+_Frame_Buf_Read_PM                   text37             001A46
+_Frame_Buf_Write_PM                  text38             001B28
+_GIE                                 (abs)              007F97
+_INT2IE                              (abs)              007F84
+_INT2IF                              (abs)              007F81
+_INTCON                              (abs)              000FF2
+_INTCONbits                          (abs)              000FF2
+_INTEDG2                             (abs)              007F8C
+_LA2                                 (abs)              007C4A
+_LATA                                (abs)              000F89
+_LATB                                (abs)              000F8A
+_LATC                                (abs)              000F8B
+_OERR1                               (abs)              007D59
+_OERR2                               (abs)              007B89
+_OSCCON                              (abs)              000FD3
+_OSCCON2                             (abs)              000FD2
+_OSCTUNE                             (abs)              000F9B
+_PIE1                                (abs)              000F9D
+_PORTA                               (abs)              000F80
+_PORTB                               (abs)              000F81
+_PORTC                               (abs)              000F82
+_PR2                                 (abs)              000FBB
+_PSTRCON                             (abs)              000FB9
+_RC1IE                               (abs)              007CED
+_RC1IF                               (abs)              007CF5
+_RC1REG                              (abs)              000FAE
+_RC2IE                               (abs)              007D1D
+_RC2IF                               (abs)              007D25
+_RCREG1                              (abs)              000FAE
+_RCREG2                              (abs)              000F74
+_RX91                                (abs)              007D5E
+_RX92                                (abs)              007B8E
+_Read_b_eep                          text32             002022
+_SPBRG                               (abs)              000FAF
+_SPBRG2                              (abs)              000F75
+_SPBRGH                              (abs)              000FB0
+_SPBRGH2                             (abs)              000F76
+_SPEN1                               (abs)              007D5F
+_SPEN2                               (abs)              007B8F
+_SREN1                               (abs)              007D5D
+_SREN2                               (abs)              007B8D
+_STR1A                               (abs)              007DC8
+_SW_uart                             bssCOMRAM          000048
+_SYNC1                               (abs)              007D64
+_SYNC2                               (abs)              007B94
+_T1CON                               (abs)              000FCD
+_T2CON                               (abs)              000FBA
+_TABLAT                              (abs)              000FF5
+_TBLPTRH                             (abs)              000FF7
+_TBLPTRL                             (abs)              000FF6
+_TBLPTRU                             (abs)              000FF8
+_TMR0                                (abs)              000FD6
+_TMR1                                (abs)              000FCE
+_TMR1IE                              (abs)              007CE8
+_TMR1IF                              (abs)              007CF0
+_TMR2IF                              (abs)              007CF1
+_TMR2ON                              (abs)              007DD2
+_TRISA                               (abs)              000F92
+_TRISB                               (abs)              000F93
+_TRISB6                              (abs)              007C9E
+_TRISC                               (abs)              000F94
+_TRISC6                              (abs)              007CA6
+_TRISE                               (abs)              000F96
+_TX1IE                               (abs)              007CEC
+_TX1IF                               (abs)              007CF4
+_TX2IE                               (abs)              007D1C
+_TX2IF                               (abs)              007D24
+_TX91                                (abs)              007D66
+_TX92                                (abs)              007B96
+_TXEN1                               (abs)              007D65
+_TXEN2                               (abs)              007B95
+_TXREG                               (abs)              000FAD
+_TXREG1                              (abs)              000FAD
+_TXREG2                              (abs)              000F73
+_User_Name                           _User_Name_text    003000
+_User_Name1                          _User_Name1_text   003100
+_User_Name10                         _User_Name10_text  003A00
+_User_Name100                        _User_Name100_text 009400
+_User_Name100_absaddr                (abs)              009400
+_User_Name101                        _User_Name101_text 009500
+_User_Name101_absaddr                (abs)              009500
+_User_Name102                        _User_Name102_text 009600
+_User_Name102_absaddr                (abs)              009600
+_User_Name103                        _User_Name103_text 009700
+_User_Name103_absaddr                (abs)              009700
+_User_Name104                        _User_Name104_text 009800
+_User_Name104_absaddr                (abs)              009800
+_User_Name105                        _User_Name105_text 009900
+_User_Name105_absaddr                (abs)              009900
+_User_Name106                        _User_Name106_text 009A00
+_User_Name106_absaddr                (abs)              009A00
+_User_Name107                        _User_Name107_text 009B00
+_User_Name107_absaddr                (abs)              009B00
+_User_Name108                        _User_Name108_text 009C00
+_User_Name108_absaddr                (abs)              009C00
+_User_Name109                        _User_Name109_text 009D00
+_User_Name109_absaddr                (abs)              009D00
+_User_Name10_absaddr                 (abs)              003A00
+_User_Name11                         _User_Name11_text  003B00
+_User_Name110                        _User_Name110_text 009E00
+_User_Name110_absaddr                (abs)              009E00
+_User_Name111                        _User_Name111_text 009F00
+_User_Name111_absaddr                (abs)              009F00
+_User_Name112                        _User_Name112_text 00A000
+_User_Name112_absaddr                (abs)              00A000
+_User_Name113                        _User_Name113_text 00A100
+_User_Name113_absaddr                (abs)              00A100
+_User_Name114                        _User_Name114_text 00A200
+_User_Name114_absaddr                (abs)              00A200
+_User_Name115                        _User_Name115_text 00A300
+_User_Name115_absaddr                (abs)              00A300
+_User_Name116                        _User_Name116_text 00A400
+_User_Name116_absaddr                (abs)              00A400
+_User_Name117                        _User_Name117_text 00A500
+_User_Name117_absaddr                (abs)              00A500
+_User_Name118                        _User_Name118_text 00A600
+_User_Name118_absaddr                (abs)              00A600
+_User_Name119                        _User_Name119_text 00A700
+_User_Name119_absaddr                (abs)              00A700
+_User_Name11_absaddr                 (abs)              003B00
+_User_Name12                         _User_Name12_text  003C00
+_User_Name120                        _User_Name120_text 00A800
+_User_Name120_absaddr                (abs)              00A800
+_User_Name121                        _User_Name121_text 00A900
+_User_Name121_absaddr                (abs)              00A900
+_User_Name122                        _User_Name122_text 00AA00
+_User_Name122_absaddr                (abs)              00AA00
+_User_Name123                        _User_Name123_text 00AB00
+_User_Name123_absaddr                (abs)              00AB00
+_User_Name124                        _User_Name124_text 00AC00
+_User_Name124_absaddr                (abs)              00AC00
+_User_Name125                        _User_Name125_text 00AD00
+_User_Name125_absaddr                (abs)              00AD00
+_User_Name126                        _User_Name126_text 00AE00
+_User_Name126_absaddr                (abs)              00AE00
+_User_Name127                        _User_Name127_text 00AF00
+_User_Name127_absaddr                (abs)              00AF00
+_User_Name128                        _User_Name128_text 00B000
+_User_Name128_absaddr                (abs)              00B000
+_User_Name129                        _User_Name129_text 00B100
+_User_Name129_absaddr                (abs)              00B100
+_User_Name12_absaddr                 (abs)              003C00
+_User_Name13                         _User_Name13_text  003D00
+_User_Name130                        _User_Name130_text 00B200
+_User_Name130_absaddr                (abs)              00B200
+_User_Name131                        _User_Name131_text 00B300
+_User_Name131_absaddr                (abs)              00B300
+_User_Name132                        _User_Name132_text 00B400
+_User_Name132_absaddr                (abs)              00B400
+_User_Name133                        _User_Name133_text 00B500
+_User_Name133_absaddr                (abs)              00B500
+_User_Name134                        _User_Name134_text 00B600
+_User_Name134_absaddr                (abs)              00B600
+_User_Name135                        _User_Name135_text 00B700
+_User_Name135_absaddr                (abs)              00B700
+_User_Name136                        _User_Name136_text 00B800
+_User_Name136_absaddr                (abs)              00B800
+_User_Name137                        _User_Name137_text 00B900
+_User_Name137_absaddr                (abs)              00B900
+_User_Name138                        _User_Name138_text 00BA00
+_User_Name138_absaddr                (abs)              00BA00
+_User_Name139                        _User_Name139_text 00BB00
+_User_Name139_absaddr                (abs)              00BB00
+_User_Name13_absaddr                 (abs)              003D00
+_User_Name14                         _User_Name14_text  003E00
+_User_Name140                        _User_Name140_text 00BC00
+_User_Name140_absaddr                (abs)              00BC00
+_User_Name141                        _User_Name141_text 00BD00
+_User_Name141_absaddr                (abs)              00BD00
+_User_Name142                        _User_Name142_text 00BE00
+_User_Name142_absaddr                (abs)              00BE00
+_User_Name143                        _User_Name143_text 00BF00
+_User_Name143_absaddr                (abs)              00BF00
+_User_Name144                        _User_Name144_text 00C000
+_User_Name144_absaddr                (abs)              00C000
+_User_Name145                        _User_Name145_text 00C100
+_User_Name145_absaddr                (abs)              00C100
+_User_Name146                        _User_Name146_text 00C200
+_User_Name146_absaddr                (abs)              00C200
+_User_Name147                        _User_Name147_text 00C300
+_User_Name147_absaddr                (abs)              00C300
+_User_Name148                        _User_Name148_text 00C400
+_User_Name148_absaddr                (abs)              00C400
+_User_Name149                        _User_Name149_text 00C500
+_User_Name149_absaddr                (abs)              00C500
+_User_Name14_absaddr                 (abs)              003E00
+_User_Name15                         _User_Name15_text  003F00
+_User_Name150                        _User_Name150_text 00C600
+_User_Name150_absaddr                (abs)              00C600
+_User_Name151                        _User_Name151_text 00C700
+_User_Name151_absaddr                (abs)              00C700
+_User_Name152                        _User_Name152_text 00C800
+_User_Name152_absaddr                (abs)              00C800
+_User_Name153                        _User_Name153_text 00C900
+_User_Name153_absaddr                (abs)              00C900
+_User_Name154                        _User_Name154_text 00CA00
+_User_Name154_absaddr                (abs)              00CA00
+_User_Name155                        _User_Name155_text 00CB00
+_User_Name155_absaddr                (abs)              00CB00
+_User_Name156                        _User_Name156_text 00CC00
+_User_Name156_absaddr                (abs)              00CC00
+_User_Name157                        _User_Name157_text 00CD00
+_User_Name157_absaddr                (abs)              00CD00
+_User_Name158                        _User_Name158_text 00CE00
+_User_Name158_absaddr                (abs)              00CE00
+_User_Name159                        _User_Name159_text 00CF00
+_User_Name159_absaddr                (abs)              00CF00
+_User_Name15_absaddr                 (abs)              003F00
+_User_Name16                         _User_Name16_text  004000
+_User_Name16_absaddr                 (abs)              004000
+_User_Name17                         _User_Name17_text  004100
+_User_Name17_absaddr                 (abs)              004100
+_User_Name18                         _User_Name18_text  004200
+_User_Name18_absaddr                 (abs)              004200
+_User_Name19                         _User_Name19_text  004300
+_User_Name19_absaddr                 (abs)              004300
+_User_Name1_absaddr                  (abs)              003100
+_User_Name2                          _User_Name2_text   003200
+_User_Name20                         _User_Name20_text  004400
+_User_Name20_absaddr                 (abs)              004400
+_User_Name21                         _User_Name21_text  004500
+_User_Name21_absaddr                 (abs)              004500
+_User_Name22                         _User_Name22_text  004600
+_User_Name22_absaddr                 (abs)              004600
+_User_Name23                         _User_Name23_text  004700
+_User_Name23_absaddr                 (abs)              004700
+_User_Name24                         _User_Name24_text  004800
+_User_Name24_absaddr                 (abs)              004800
+_User_Name25                         _User_Name25_text  004900
+_User_Name25_absaddr                 (abs)              004900
+_User_Name26                         _User_Name26_text  004A00
+_User_Name26_absaddr                 (abs)              004A00
+_User_Name27                         _User_Name27_text  004B00
+_User_Name27_absaddr                 (abs)              004B00
+_User_Name28                         _User_Name28_text  004C00
+_User_Name28_absaddr                 (abs)              004C00
+_User_Name29                         _User_Name29_text  004D00
+_User_Name29_absaddr                 (abs)              004D00
+_User_Name2_absaddr                  (abs)              003200
+_User_Name3                          _User_Name3_text   003300
+_User_Name30                         _User_Name30_text  004E00
+_User_Name30_absaddr                 (abs)              004E00
+_User_Name31                         _User_Name31_text  004F00
+_User_Name31_absaddr                 (abs)              004F00
+_User_Name32                         _User_Name32_text  005000
+_User_Name32_absaddr                 (abs)              005000
+_User_Name33                         _User_Name33_text  005100
+_User_Name33_absaddr                 (abs)              005100
+_User_Name34                         _User_Name34_text  005200
+_User_Name34_absaddr                 (abs)              005200
+_User_Name35                         _User_Name35_text  005300
+_User_Name35_absaddr                 (abs)              005300
+_User_Name36                         _User_Name36_text  005400
+_User_Name36_absaddr                 (abs)              005400
+_User_Name37                         _User_Name37_text  005500
+_User_Name37_absaddr                 (abs)              005500
+_User_Name38                         _User_Name38_text  005600
+_User_Name38_absaddr                 (abs)              005600
+_User_Name39                         _User_Name39_text  005700
+_User_Name39_absaddr                 (abs)              005700
+_User_Name3_absaddr                  (abs)              003300
+_User_Name4                          _User_Name4_text   003400
+_User_Name40                         _User_Name40_text  005800
+_User_Name40_absaddr                 (abs)              005800
+_User_Name41                         _User_Name41_text  005900
+_User_Name41_absaddr                 (abs)              005900
+_User_Name42                         _User_Name42_text  005A00
+_User_Name42_absaddr                 (abs)              005A00
+_User_Name43                         _User_Name43_text  005B00
+_User_Name43_absaddr                 (abs)              005B00
+_User_Name44                         _User_Name44_text  005C00
+_User_Name44_absaddr                 (abs)              005C00
+_User_Name45                         _User_Name45_text  005D00
+_User_Name45_absaddr                 (abs)              005D00
+_User_Name46                         _User_Name46_text  005E00
+_User_Name46_absaddr                 (abs)              005E00
+_User_Name47                         _User_Name47_text  005F00
+_User_Name47_absaddr                 (abs)              005F00
+_User_Name48                         _User_Name48_text  006000
+_User_Name48_absaddr                 (abs)              006000
+_User_Name49                         _User_Name49_text  006100
+_User_Name49_absaddr                 (abs)              006100
+_User_Name4_absaddr                  (abs)              003400
+_User_Name5                          _User_Name5_text   003500
+_User_Name50                         _User_Name50_text  006200
+_User_Name50_absaddr                 (abs)              006200
+_User_Name51                         _User_Name51_text  006300
+_User_Name51_absaddr                 (abs)              006300
+_User_Name52                         _User_Name52_text  006400
+_User_Name52_absaddr                 (abs)              006400
+_User_Name53                         _User_Name53_text  006500
+_User_Name53_absaddr                 (abs)              006500
+_User_Name54                         _User_Name54_text  006600
+_User_Name54_absaddr                 (abs)              006600
+_User_Name55                         _User_Name55_text  006700
+_User_Name55_absaddr                 (abs)              006700
+_User_Name56                         _User_Name56_text  006800
+_User_Name56_absaddr                 (abs)              006800
+_User_Name57                         _User_Name57_text  006900
+_User_Name57_absaddr                 (abs)              006900
+_User_Name58                         _User_Name58_text  006A00
+_User_Name58_absaddr                 (abs)              006A00
+_User_Name59                         _User_Name59_text  006B00
+_User_Name59_absaddr                 (abs)              006B00
+_User_Name5_absaddr                  (abs)              003500
+_User_Name6                          _User_Name6_text   003600
+_User_Name60                         _User_Name60_text  006C00
+_User_Name60_absaddr                 (abs)              006C00
+_User_Name61                         _User_Name61_text  006D00
+_User_Name61_absaddr                 (abs)              006D00
+_User_Name62                         _User_Name62_text  006E00
+_User_Name62_absaddr                 (abs)              006E00
+_User_Name63                         _User_Name63_text  006F00
+_User_Name63_absaddr                 (abs)              006F00
+_User_Name64                         _User_Name64_text  007000
+_User_Name64_absaddr                 (abs)              007000
+_User_Name65                         _User_Name65_text  007100
+_User_Name65_absaddr                 (abs)              007100
+_User_Name66                         _User_Name66_text  007200
+_User_Name66_absaddr                 (abs)              007200
+_User_Name67                         _User_Name67_text  007300
+_User_Name67_absaddr                 (abs)              007300
+_User_Name68                         _User_Name68_text  007400
+_User_Name68_absaddr                 (abs)              007400
+_User_Name69                         _User_Name69_text  007500
+_User_Name69_absaddr                 (abs)              007500
+_User_Name6_absaddr                  (abs)              003600
+_User_Name7                          _User_Name7_text   003700
+_User_Name70                         _User_Name70_text  007600
+_User_Name70_absaddr                 (abs)              007600
+_User_Name71                         _User_Name71_text  007700
+_User_Name71_absaddr                 (abs)              007700
+_User_Name72                         _User_Name72_text  007800
+_User_Name72_absaddr                 (abs)              007800
+_User_Name73                         _User_Name73_text  007900
+_User_Name73_absaddr                 (abs)              007900
+_User_Name74                         _User_Name74_text  007A00
+_User_Name74_absaddr                 (abs)              007A00
+_User_Name75                         _User_Name75_text  007B00
+_User_Name75_absaddr                 (abs)              007B00
+_User_Name76                         _User_Name76_text  007C00
+_User_Name76_absaddr                 (abs)              007C00
+_User_Name77                         _User_Name77_text  007D00
+_User_Name77_absaddr                 (abs)              007D00
+_User_Name78                         _User_Name78_text  007E00
+_User_Name78_absaddr                 (abs)              007E00
+_User_Name79                         _User_Name79_text  007F00
+_User_Name79_absaddr                 (abs)              007F00
+_User_Name7_absaddr                  (abs)              003700
+_User_Name8                          _User_Name8_text   003800
+_User_Name80                         _User_Name80_text  008000
+_User_Name80_absaddr                 (abs)              008000
+_User_Name81                         _User_Name81_text  008100
+_User_Name81_absaddr                 (abs)              008100
+_User_Name82                         _User_Name82_text  008200
+_User_Name82_absaddr                 (abs)              008200
+_User_Name83                         _User_Name83_text  008300
+_User_Name83_absaddr                 (abs)              008300
+_User_Name84                         _User_Name84_text  008400
+_User_Name84_absaddr                 (abs)              008400
+_User_Name85                         _User_Name85_text  008500
+_User_Name85_absaddr                 (abs)              008500
+_User_Name86                         _User_Name86_text  008600
+_User_Name86_absaddr                 (abs)              008600
+_User_Name87                         _User_Name87_text  008700
+_User_Name87_absaddr                 (abs)              008700
+_User_Name88                         _User_Name88_text  008800
+_User_Name88_absaddr                 (abs)              008800
+_User_Name89                         _User_Name89_text  008900
+_User_Name89_absaddr                 (abs)              008900
+_User_Name8_absaddr                  (abs)              003800
+_User_Name9                          _User_Name9_text   003900
+_User_Name90                         _User_Name90_text  008A00
+_User_Name90_absaddr                 (abs)              008A00
+_User_Name91                         _User_Name91_text  008B00
+_User_Name91_absaddr                 (abs)              008B00
+_User_Name92                         _User_Name92_text  008C00
+_User_Name92_absaddr                 (abs)              008C00
+_User_Name93                         _User_Name93_text  008D00
+_User_Name93_absaddr                 (abs)              008D00
+_User_Name94                         _User_Name94_text  008E00
+_User_Name94_absaddr                 (abs)              008E00
+_User_Name95                         _User_Name95_text  008F00
+_User_Name95_absaddr                 (abs)              008F00
+_User_Name96                         _User_Name96_text  009000
+_User_Name96_absaddr                 (abs)              009000
+_User_Name97                         _User_Name97_text  009100
+_User_Name97_absaddr                 (abs)              009100
+_User_Name98                         _User_Name98_text  009200
+_User_Name98_absaddr                 (abs)              009200
+_User_Name99                         _User_Name99_text  009300
+_User_Name99_absaddr                 (abs)              009300
+_User_Name9_absaddr                  (abs)              003900
+_User_Name_absaddr                   (abs)              003000
+_WR                                  (abs)              007D31
+_WREN                                (abs)              007D32
+_Write_b_eep                         text15             001EE8
+__CFG_BOREN$ON                       (abs)              000000
+__CFG_BORV$250                       (abs)              000000
+__CFG_CP0$ON                         (abs)              000000
+__CFG_CP1$ON                         (abs)              000000
+__CFG_CP2$ON                         (abs)              000000
+__CFG_CP3$ON                         (abs)              000000
+__CFG_CPB$ON                         (abs)              000000
+__CFG_CPD$ON                         (abs)              000000
+__CFG_DEBUG$OFF                      (abs)              000000
+__CFG_FCMEN$OFF                      (abs)              000000
+__CFG_FOSC$INTIO67                   (abs)              000000
+__CFG_IESO$OFF                       (abs)              000000
+__CFG_LVP$OFF                        (abs)              000000
+__CFG_MCLRE$INTMCLR                  (abs)              000000
+__CFG_PBADEN$OFF                     (abs)              000000
+__CFG_PLLCFG$ON                      (abs)              000000
+__CFG_PRICLKEN$ON                    (abs)              000000
+__CFG_PWRTEN$ON                      (abs)              000000
+__CFG_STVREN$ON                      (abs)              000000
+__CFG_WDTEN$ON                       (abs)              000000
+__CFG_WDTPS$64                       (abs)              000000
+__CFG_XINST$OFF                      (abs)              000000
+__HRAM                               (abs)              000000
+__H_User_Name100_text                _User_Name100_text 0094FA
+__H_User_Name101_text                _User_Name101_text 0095FA
+__H_User_Name102_text                _User_Name102_text 0096FA
+__H_User_Name103_text                _User_Name103_text 0097FA
+__H_User_Name104_text                _User_Name104_text 0098FA
+__H_User_Name105_text                _User_Name105_text 0099FA
+__H_User_Name106_text                _User_Name106_text 009AFA
+__H_User_Name107_text                _User_Name107_text 009BFA
+__H_User_Name108_text                _User_Name108_text 009CFA
+__H_User_Name109_text                _User_Name109_text 009DFA
+__H_User_Name10_text                 _User_Name10_text  003AFA
+__H_User_Name110_text                _User_Name110_text 009EFA
+__H_User_Name111_text                _User_Name111_text 009FFA
+__H_User_Name112_text                _User_Name112_text 00A0FA
+__H_User_Name113_text                _User_Name113_text 00A1FA
+__H_User_Name114_text                _User_Name114_text 00A2FA
+__H_User_Name115_text                _User_Name115_text 00A3FA
+__H_User_Name116_text                _User_Name116_text 00A4FA
+__H_User_Name117_text                _User_Name117_text 00A5FA
+__H_User_Name118_text                _User_Name118_text 00A6FA
+__H_User_Name119_text                _User_Name119_text 00A7FA
+__H_User_Name11_text                 _User_Name11_text  003BFA
+__H_User_Name120_text                _User_Name120_text 00A8FA
+__H_User_Name121_text                _User_Name121_text 00A9FA
+__H_User_Name122_text                _User_Name122_text 00AAFA
+__H_User_Name123_text                _User_Name123_text 00ABFA
+__H_User_Name124_text                _User_Name124_text 00ACFA
+__H_User_Name125_text                _User_Name125_text 00ADFA
+__H_User_Name126_text                _User_Name126_text 00AEFA
+__H_User_Name127_text                _User_Name127_text 00AFFA
+__H_User_Name128_text                _User_Name128_text 00B0FA
+__H_User_Name129_text                _User_Name129_text 00B1FA
+__H_User_Name12_text                 _User_Name12_text  003CFA
+__H_User_Name130_text                _User_Name130_text 00B2FA
+__H_User_Name131_text                _User_Name131_text 00B3FA
+__H_User_Name132_text                _User_Name132_text 00B4FA
+__H_User_Name133_text                _User_Name133_text 00B5FA
+__H_User_Name134_text                _User_Name134_text 00B6FA
+__H_User_Name135_text                _User_Name135_text 00B7FA
+__H_User_Name136_text                _User_Name136_text 00B8FA
+__H_User_Name137_text                _User_Name137_text 00B9FA
+__H_User_Name138_text                _User_Name138_text 00BAFA
+__H_User_Name139_text                _User_Name139_text 00BBFA
+__H_User_Name13_text                 _User_Name13_text  003DFA
+__H_User_Name140_text                _User_Name140_text 00BCFA
+__H_User_Name141_text                _User_Name141_text 00BDFA
+__H_User_Name142_text                _User_Name142_text 00BEFA
+__H_User_Name143_text                _User_Name143_text 00BFFA
+__H_User_Name144_text                _User_Name144_text 00C0FA
+__H_User_Name145_text                _User_Name145_text 00C1FA
+__H_User_Name146_text                _User_Name146_text 00C2FA
+__H_User_Name147_text                _User_Name147_text 00C3FA
+__H_User_Name148_text                _User_Name148_text 00C4FA
+__H_User_Name149_text                _User_Name149_text 00C5FA
+__H_User_Name14_text                 _User_Name14_text  003EFA
+__H_User_Name150_text                _User_Name150_text 00C6FA
+__H_User_Name151_text                _User_Name151_text 00C7FA
+__H_User_Name152_text                _User_Name152_text 00C8FA
+__H_User_Name153_text                _User_Name153_text 00C9FA
+__H_User_Name154_text                _User_Name154_text 00CAFA
+__H_User_Name155_text                _User_Name155_text 00CBFA
+__H_User_Name156_text                _User_Name156_text 00CCFA
+__H_User_Name157_text                _User_Name157_text 00CDFA
+__H_User_Name158_text                _User_Name158_text 00CEFA
+__H_User_Name159_text                _User_Name159_text 00CFFA
+__H_User_Name15_text                 _User_Name15_text  003FFA
+__H_User_Name16_text                 _User_Name16_text  0040FA
+__H_User_Name17_text                 _User_Name17_text  0041FA
+__H_User_Name18_text                 _User_Name18_text  0042FA
+__H_User_Name19_text                 _User_Name19_text  0043FA
+__H_User_Name1_text                  _User_Name1_text   0031FA
+__H_User_Name20_text                 _User_Name20_text  0044FA
+__H_User_Name21_text                 _User_Name21_text  0045FA
+__H_User_Name22_text                 _User_Name22_text  0046FA
+__H_User_Name23_text                 _User_Name23_text  0047FA
+__H_User_Name24_text                 _User_Name24_text  0048FA
+__H_User_Name25_text                 _User_Name25_text  0049FA
+__H_User_Name26_text                 _User_Name26_text  004AFA
+__H_User_Name27_text                 _User_Name27_text  004BFA
+__H_User_Name28_text                 _User_Name28_text  004CFA
+__H_User_Name29_text                 _User_Name29_text  004DFA
+__H_User_Name2_text                  _User_Name2_text   0032FA
+__H_User_Name30_text                 _User_Name30_text  004EFA
+__H_User_Name31_text                 _User_Name31_text  004FFA
+__H_User_Name32_text                 _User_Name32_text  0050FA
+__H_User_Name33_text                 _User_Name33_text  0051FA
+__H_User_Name34_text                 _User_Name34_text  0052FA
+__H_User_Name35_text                 _User_Name35_text  0053FA
+__H_User_Name36_text                 _User_Name36_text  0054FA
+__H_User_Name37_text                 _User_Name37_text  0055FA
+__H_User_Name38_text                 _User_Name38_text  0056FA
+__H_User_Name39_text                 _User_Name39_text  0057FA
+__H_User_Name3_text                  _User_Name3_text   0033FA
+__H_User_Name40_text                 _User_Name40_text  0058FA
+__H_User_Name41_text                 _User_Name41_text  0059FA
+__H_User_Name42_text                 _User_Name42_text  005AFA
+__H_User_Name43_text                 _User_Name43_text  005BFA
+__H_User_Name44_text                 _User_Name44_text  005CFA
+__H_User_Name45_text                 _User_Name45_text  005DFA
+__H_User_Name46_text                 _User_Name46_text  005EFA
+__H_User_Name47_text                 _User_Name47_text  005FFA
+__H_User_Name48_text                 _User_Name48_text  0060FA
+__H_User_Name49_text                 _User_Name49_text  0061FA
+__H_User_Name4_text                  _User_Name4_text   0034FA
+__H_User_Name50_text                 _User_Name50_text  0062FA
+__H_User_Name51_text                 _User_Name51_text  0063FA
+__H_User_Name52_text                 _User_Name52_text  0064FA
+__H_User_Name53_text                 _User_Name53_text  0065FA
+__H_User_Name54_text                 _User_Name54_text  0066FA
+__H_User_Name55_text                 _User_Name55_text  0067FA
+__H_User_Name56_text                 _User_Name56_text  0068FA
+__H_User_Name57_text                 _User_Name57_text  0069FA
+__H_User_Name58_text                 _User_Name58_text  006AFA
+__H_User_Name59_text                 _User_Name59_text  006BFA
+__H_User_Name5_text                  _User_Name5_text   0035FA
+__H_User_Name60_text                 _User_Name60_text  006CFA
+__H_User_Name61_text                 _User_Name61_text  006DFA
+__H_User_Name62_text                 _User_Name62_text  006EFA
+__H_User_Name63_text                 _User_Name63_text  006FFA
+__H_User_Name64_text                 _User_Name64_text  0070FA
+__H_User_Name65_text                 _User_Name65_text  0071FA
+__H_User_Name66_text                 _User_Name66_text  0072FA
+__H_User_Name67_text                 _User_Name67_text  0073FA
+__H_User_Name68_text                 _User_Name68_text  0074FA
+__H_User_Name69_text                 _User_Name69_text  0075FA
+__H_User_Name6_text                  _User_Name6_text   0036FA
+__H_User_Name70_text                 _User_Name70_text  0076FA
+__H_User_Name71_text                 _User_Name71_text  0077FA
+__H_User_Name72_text                 _User_Name72_text  0078FA
+__H_User_Name73_text                 _User_Name73_text  0079FA
+__H_User_Name74_text                 _User_Name74_text  007AFA
+__H_User_Name75_text                 _User_Name75_text  007BFA
+__H_User_Name76_text                 _User_Name76_text  007CFA
+__H_User_Name77_text                 _User_Name77_text  007DFA
+__H_User_Name78_text                 _User_Name78_text  007EFA
+__H_User_Name79_text                 _User_Name79_text  007FFA
+__H_User_Name7_text                  _User_Name7_text   0037FA
+__H_User_Name80_text                 _User_Name80_text  0080FA
+__H_User_Name81_text                 _User_Name81_text  0081FA
+__H_User_Name82_text                 _User_Name82_text  0082FA
+__H_User_Name83_text                 _User_Name83_text  0083FA
+__H_User_Name84_text                 _User_Name84_text  0084FA
+__H_User_Name85_text                 _User_Name85_text  0085FA
+__H_User_Name86_text                 _User_Name86_text  0086FA
+__H_User_Name87_text                 _User_Name87_text  0087FA
+__H_User_Name88_text                 _User_Name88_text  0088FA
+__H_User_Name89_text                 _User_Name89_text  0089FA
+__H_User_Name8_text                  _User_Name8_text   0038FA
+__H_User_Name90_text                 _User_Name90_text  008AFA
+__H_User_Name91_text                 _User_Name91_text  008BFA
+__H_User_Name92_text                 _User_Name92_text  008CFA
+__H_User_Name93_text                 _User_Name93_text  008DFA
+__H_User_Name94_text                 _User_Name94_text  008EFA
+__H_User_Name95_text                 _User_Name95_text  008FFA
+__H_User_Name96_text                 _User_Name96_text  0090FA
+__H_User_Name97_text                 _User_Name97_text  0091FA
+__H_User_Name98_text                 _User_Name98_text  0092FA
+__H_User_Name99_text                 _User_Name99_text  0093FA
+__H_User_Name9_text                  _User_Name9_text   0039FA
+__H_User_Name_text                   _User_Name_text    0030FA
+__Habs1                              abs1               000000
+__Hbank0                             bank0              000000
+__Hbank1                             bank1              000000
+__Hbank10                            bank10             000000
+__Hbank11                            bank11             000000
+__Hbank12                            bank12             000000
+__Hbank13                            bank13             000000
+__Hbank14                            bank14             000000
+__Hbank15                            bank15             000000
+__Hbank2                             bank2              000000
+__Hbank3                             bank3              000000
+__Hbank4                             bank4              000000
+__Hbank5                             bank5              000000
+__Hbank6                             bank6              000000
+__Hbank7                             bank7              000000
+__Hbank8                             bank8              000000
+__Hbank9                             bank9              000000
+__Hbigbss                            bigbss             000000
+__Hbigdata                           bigdata            000000
+__Hbigram                            bigram             000000
+__Hbss                               bss                000000
+__HbssBANK0                          bssBANK0           000000
+__HbssBANK1                          bssBANK1           000000
+__HbssBIGRAM                         bssBIGRAM          000000
+__HbssCOMRAM                         bssCOMRAM          000000
+__Hcinit                             cinit              000000
+__Hclrtext                           clrtext            000000
+__Hcomram                            comram             000000
+__Hconfig                            config             30000A
+__Hconst                             const              000000
+__HcstackBANK0                       cstackBANK0        000000
+__HcstackCOMRAM                      cstackCOMRAM       000000
+__Hdata                              data               000000
+__Heeprom_data                       eeprom_data        F00008
+__Hend_init                          end_init           0003E8
+__Hfarbss                            farbss             000000
+__Hfardata                           fardata            000000
+__Hibigdata                          ibigdata           000000
+__Hidata                             idata              000000
+__Hidloc                             idloc              000000
+__Hifardata                          ifardata           000000
+__Hinit                              init               0003E4
+__Hintcode                           intcode            0003E4
+__Hintcode_body                      intcode_body       000000
+__Hintcodelo                         intcodelo          0003E4
+__Hintentry                          intentry           000000
+__Hintret                            intret             000000
+__Hintsave_regs                      intsave_regs       000000
+__Hirdata                            irdata             000000
+__Hmediumconst                       mediumconst        00D0F2
+__Hnvbit                             nvbit              000000
+__Hnvrram                            nvrram             000000
+__Hpa_nodes                          pa_nodes           000000
+__Hparam                             rparam             000000
+__Hpowerup                           powerup            0003E4
+__Hram                               ram                000000
+__Hramtop                            ramtop             001000
+__Hrbit                              rbit               000000
+__Hrbss                              rbss               000000
+__Hrdata                             rdata              000000
+__Hreset_vec                         reset_vec          000004
+__Hrparam                            rparam             000000
+__Hsfr                               sfr                000000
+__Hsmallconst                        smallconst         000000
+__Hstruct                            struct             000000
+__Htemp                              temp               000000
+__Htext                              text               000000
+__Htext0                             text0              000000
+__Htext1                             text1              000000
+__Htext10                            text10             000000
+__Htext11                            text11             000000
+__Htext12                            text12             000000
+__Htext13                            text13             000000
+__Htext14                            text14             000000
+__Htext15                            text15             000000
+__Htext16                            text16             000000
+__Htext17                            text17             000000
+__Htext18                            text18             000000
+__Htext19                            text19             000000
+__Htext2                             text2              000000
+__Htext20                            text20             000000
+__Htext21                            text21             000000
+__Htext22                            text22             000000
+__Htext23                            text23             000000
+__Htext24                            text24             000000
+__Htext25                            text25             000000
+__Htext26                            text26             000000
+__Htext27                            text27             000000
+__Htext28                            text28             000000
+__Htext29                            text29             000000
+__Htext3                             text3              000000
+__Htext30                            text30             000000
+__Htext31                            text31             000000
+__Htext32                            text32             000000
+__Htext33                            text33             000000
+__Htext34                            text34             000000
+__Htext35                            text35             000000
+__Htext36                            text36             000000
+__Htext37                            text37             000000
+__Htext38                            text38             000000
+__Htext39                            text39             000000
+__Htext4                             text4              000000
+__Htext40                            text40             000000
+__Htext41                            text41             000000
+__Htext42                            text42             000000
+__Htext43                            text43             000000
+__Htext44                            text44             000000
+__Htext45                            text45             000000
+__Htext46                            text46             000000
+__Htext47                            text47             000000
+__Htext5                             text5              000000
+__Htext6                             text6              000000
+__Htext7                             text7              000000
+__Htext8                             text8              000000
+__Htext9                             text9              000000
+__LRAM                               (abs)              000001
+__L_User_Name100_text                _User_Name100_text 009400
+__L_User_Name101_text                _User_Name101_text 009500
+__L_User_Name102_text                _User_Name102_text 009600
+__L_User_Name103_text                _User_Name103_text 009700
+__L_User_Name104_text                _User_Name104_text 009800
+__L_User_Name105_text                _User_Name105_text 009900
+__L_User_Name106_text                _User_Name106_text 009A00
+__L_User_Name107_text                _User_Name107_text 009B00
+__L_User_Name108_text                _User_Name108_text 009C00
+__L_User_Name109_text                _User_Name109_text 009D00
+__L_User_Name10_text                 _User_Name10_text  003A00
+__L_User_Name110_text                _User_Name110_text 009E00
+__L_User_Name111_text                _User_Name111_text 009F00
+__L_User_Name112_text                _User_Name112_text 00A000
+__L_User_Name113_text                _User_Name113_text 00A100
+__L_User_Name114_text                _User_Name114_text 00A200
+__L_User_Name115_text                _User_Name115_text 00A300
+__L_User_Name116_text                _User_Name116_text 00A400
+__L_User_Name117_text                _User_Name117_text 00A500
+__L_User_Name118_text                _User_Name118_text 00A600
+__L_User_Name119_text                _User_Name119_text 00A700
+__L_User_Name11_text                 _User_Name11_text  003B00
+__L_User_Name120_text                _User_Name120_text 00A800
+__L_User_Name121_text                _User_Name121_text 00A900
+__L_User_Name122_text                _User_Name122_text 00AA00
+__L_User_Name123_text                _User_Name123_text 00AB00
+__L_User_Name124_text                _User_Name124_text 00AC00
+__L_User_Name125_text                _User_Name125_text 00AD00
+__L_User_Name126_text                _User_Name126_text 00AE00
+__L_User_Name127_text                _User_Name127_text 00AF00
+__L_User_Name128_text                _User_Name128_text 00B000
+__L_User_Name129_text                _User_Name129_text 00B100
+__L_User_Name12_text                 _User_Name12_text  003C00
+__L_User_Name130_text                _User_Name130_text 00B200
+__L_User_Name131_text                _User_Name131_text 00B300
+__L_User_Name132_text                _User_Name132_text 00B400
+__L_User_Name133_text                _User_Name133_text 00B500
+__L_User_Name134_text                _User_Name134_text 00B600
+__L_User_Name135_text                _User_Name135_text 00B700
+__L_User_Name136_text                _User_Name136_text 00B800
+__L_User_Name137_text                _User_Name137_text 00B900
+__L_User_Name138_text                _User_Name138_text 00BA00
+__L_User_Name139_text                _User_Name139_text 00BB00
+__L_User_Name13_text                 _User_Name13_text  003D00
+__L_User_Name140_text                _User_Name140_text 00BC00
+__L_User_Name141_text                _User_Name141_text 00BD00
+__L_User_Name142_text                _User_Name142_text 00BE00
+__L_User_Name143_text                _User_Name143_text 00BF00
+__L_User_Name144_text                _User_Name144_text 00C000
+__L_User_Name145_text                _User_Name145_text 00C100
+__L_User_Name146_text                _User_Name146_text 00C200
+__L_User_Name147_text                _User_Name147_text 00C300
+__L_User_Name148_text                _User_Name148_text 00C400
+__L_User_Name149_text                _User_Name149_text 00C500
+__L_User_Name14_text                 _User_Name14_text  003E00
+__L_User_Name150_text                _User_Name150_text 00C600
+__L_User_Name151_text                _User_Name151_text 00C700
+__L_User_Name152_text                _User_Name152_text 00C800
+__L_User_Name153_text                _User_Name153_text 00C900
+__L_User_Name154_text                _User_Name154_text 00CA00
+__L_User_Name155_text                _User_Name155_text 00CB00
+__L_User_Name156_text                _User_Name156_text 00CC00
+__L_User_Name157_text                _User_Name157_text 00CD00
+__L_User_Name158_text                _User_Name158_text 00CE00
+__L_User_Name159_text                _User_Name159_text 00CF00
+__L_User_Name15_text                 _User_Name15_text  003F00
+__L_User_Name16_text                 _User_Name16_text  004000
+__L_User_Name17_text                 _User_Name17_text  004100
+__L_User_Name18_text                 _User_Name18_text  004200
+__L_User_Name19_text                 _User_Name19_text  004300
+__L_User_Name1_text                  _User_Name1_text   003100
+__L_User_Name20_text                 _User_Name20_text  004400
+__L_User_Name21_text                 _User_Name21_text  004500
+__L_User_Name22_text                 _User_Name22_text  004600
+__L_User_Name23_text                 _User_Name23_text  004700
+__L_User_Name24_text                 _User_Name24_text  004800
+__L_User_Name25_text                 _User_Name25_text  004900
+__L_User_Name26_text                 _User_Name26_text  004A00
+__L_User_Name27_text                 _User_Name27_text  004B00
+__L_User_Name28_text                 _User_Name28_text  004C00
+__L_User_Name29_text                 _User_Name29_text  004D00
+__L_User_Name2_text                  _User_Name2_text   003200
+__L_User_Name30_text                 _User_Name30_text  004E00
+__L_User_Name31_text                 _User_Name31_text  004F00
+__L_User_Name32_text                 _User_Name32_text  005000
+__L_User_Name33_text                 _User_Name33_text  005100
+__L_User_Name34_text                 _User_Name34_text  005200
+__L_User_Name35_text                 _User_Name35_text  005300
+__L_User_Name36_text                 _User_Name36_text  005400
+__L_User_Name37_text                 _User_Name37_text  005500
+__L_User_Name38_text                 _User_Name38_text  005600
+__L_User_Name39_text                 _User_Name39_text  005700
+__L_User_Name3_text                  _User_Name3_text   003300
+__L_User_Name40_text                 _User_Name40_text  005800
+__L_User_Name41_text                 _User_Name41_text  005900
+__L_User_Name42_text                 _User_Name42_text  005A00
+__L_User_Name43_text                 _User_Name43_text  005B00
+__L_User_Name44_text                 _User_Name44_text  005C00
+__L_User_Name45_text                 _User_Name45_text  005D00
+__L_User_Name46_text                 _User_Name46_text  005E00
+__L_User_Name47_text                 _User_Name47_text  005F00
+__L_User_Name48_text                 _User_Name48_text  006000
+__L_User_Name49_text                 _User_Name49_text  006100
+__L_User_Name4_text                  _User_Name4_text   003400
+__L_User_Name50_text                 _User_Name50_text  006200
+__L_User_Name51_text                 _User_Name51_text  006300
+__L_User_Name52_text                 _User_Name52_text  006400
+__L_User_Name53_text                 _User_Name53_text  006500
+__L_User_Name54_text                 _User_Name54_text  006600
+__L_User_Name55_text                 _User_Name55_text  006700
+__L_User_Name56_text                 _User_Name56_text  006800
+__L_User_Name57_text                 _User_Name57_text  006900
+__L_User_Name58_text                 _User_Name58_text  006A00
+__L_User_Name59_text                 _User_Name59_text  006B00
+__L_User_Name5_text                  _User_Name5_text   003500
+__L_User_Name60_text                 _User_Name60_text  006C00
+__L_User_Name61_text                 _User_Name61_text  006D00
+__L_User_Name62_text                 _User_Name62_text  006E00
+__L_User_Name63_text                 _User_Name63_text  006F00
+__L_User_Name64_text                 _User_Name64_text  007000
+__L_User_Name65_text                 _User_Name65_text  007100
+__L_User_Name66_text                 _User_Name66_text  007200
+__L_User_Name67_text                 _User_Name67_text  007300
+__L_User_Name68_text                 _User_Name68_text  007400
+__L_User_Name69_text                 _User_Name69_text  007500
+__L_User_Name6_text                  _User_Name6_text   003600
+__L_User_Name70_text                 _User_Name70_text  007600
+__L_User_Name71_text                 _User_Name71_text  007700
+__L_User_Name72_text                 _User_Name72_text  007800
+__L_User_Name73_text                 _User_Name73_text  007900
+__L_User_Name74_text                 _User_Name74_text  007A00
+__L_User_Name75_text                 _User_Name75_text  007B00
+__L_User_Name76_text                 _User_Name76_text  007C00
+__L_User_Name77_text                 _User_Name77_text  007D00
+__L_User_Name78_text                 _User_Name78_text  007E00
+__L_User_Name79_text                 _User_Name79_text  007F00
+__L_User_Name7_text                  _User_Name7_text   003700
+__L_User_Name80_text                 _User_Name80_text  008000
+__L_User_Name81_text                 _User_Name81_text  008100
+__L_User_Name82_text                 _User_Name82_text  008200
+__L_User_Name83_text                 _User_Name83_text  008300
+__L_User_Name84_text                 _User_Name84_text  008400
+__L_User_Name85_text                 _User_Name85_text  008500
+__L_User_Name86_text                 _User_Name86_text  008600
+__L_User_Name87_text                 _User_Name87_text  008700
+__L_User_Name88_text                 _User_Name88_text  008800
+__L_User_Name89_text                 _User_Name89_text  008900
+__L_User_Name8_text                  _User_Name8_text   003800
+__L_User_Name90_text                 _User_Name90_text  008A00
+__L_User_Name91_text                 _User_Name91_text  008B00
+__L_User_Name92_text                 _User_Name92_text  008C00
+__L_User_Name93_text                 _User_Name93_text  008D00
+__L_User_Name94_text                 _User_Name94_text  008E00
+__L_User_Name95_text                 _User_Name95_text  008F00
+__L_User_Name96_text                 _User_Name96_text  009000
+__L_User_Name97_text                 _User_Name97_text  009100
+__L_User_Name98_text                 _User_Name98_text  009200
+__L_User_Name99_text                 _User_Name99_text  009300
+__L_User_Name9_text                  _User_Name9_text   003900
+__L_User_Name_text                   _User_Name_text    003000
+__Labs1                              abs1               000000
+__Lbank0                             bank0              000000
+__Lbank1                             bank1              000000
+__Lbank10                            bank10             000000
+__Lbank11                            bank11             000000
+__Lbank12                            bank12             000000
+__Lbank13                            bank13             000000
+__Lbank14                            bank14             000000
+__Lbank15                            bank15             000000
+__Lbank2                             bank2              000000
+__Lbank3                             bank3              000000
+__Lbank4                             bank4              000000
+__Lbank5                             bank5              000000
+__Lbank6                             bank6              000000
+__Lbank7                             bank7              000000
+__Lbank8                             bank8              000000
+__Lbank9                             bank9              000000
+__Lbigbss                            bigbss             000000
+__Lbigdata                           bigdata            000000
+__Lbigram                            bigram             000000
+__Lbss                               bss                000000
+__LbssBANK0                          bssBANK0           000000
+__LbssBANK1                          bssBANK1           000000
+__LbssBIGRAM                         bssBIGRAM          000000
+__LbssCOMRAM                         bssCOMRAM          000000
+__Lcinit                             cinit              000000
+__Lclrtext                           clrtext            000000
+__Lcomram                            comram             000000
+__Lconfig                            config             300000
+__Lconst                             const              000000
+__LcstackBANK0                       cstackBANK0        000000
+__LcstackCOMRAM                      cstackCOMRAM       000000
+__Ldata                              data               000000
+__Leeprom_data                       eeprom_data        F00000
+__Lend_init                          end_init           0003E4
+__Lfarbss                            farbss             000000
+__Lfardata                           fardata            000000
+__Libigdata                          ibigdata           000000
+__Lidata                             idata              000000
+__Lidloc                             idloc              000000
+__Lifardata                          ifardata           000000
+__Linit                              init               0003E4
+__Lintcode                           intcode            000008
+__Lintcode_body                      intcode_body       000000
+__Lintcodelo                         intcodelo          0003E4
+__Lintentry                          intentry           000000
+__Lintret                            intret             000000
+__Lintsave_regs                      intsave_regs       000000
+__Lirdata                            irdata             000000
+__Lmediumconst                       mediumconst        00CFFA
+__Lnvbit                             nvbit              000000
+__Lnvrram                            nvrram             000000
+__Lpa_nodes                          pa_nodes           000000
+__Lparam                             rparam             000000
+__Lpowerup                           powerup            0003E4
+__Lram                               ram                000000
+__Lramtop                            ramtop             001000
+__Lrbit                              rbit               000000
+__Lrbss                              rbss               000000
+__Lrdata                             rdata              000000
+__Lreset_vec                         reset_vec          000000
+__Lrparam                            rparam             000000
+__Lsfr                               sfr                000000
+__Lsmallconst                        smallconst         000000
+__Lstruct                            struct             000000
+__Ltemp                              temp               000000
+__Ltext                              text               000000
+__Ltext0                             text0              000000
+__Ltext1                             text1              000000
+__Ltext10                            text10             000000
+__Ltext11                            text11             000000
+__Ltext12                            text12             000000
+__Ltext13                            text13             000000
+__Ltext14                            text14             000000
+__Ltext15                            text15             000000
+__Ltext16                            text16             000000
+__Ltext17                            text17             000000
+__Ltext18                            text18             000000
+__Ltext19                            text19             000000
+__Ltext2                             text2              000000
+__Ltext20                            text20             000000
+__Ltext21                            text21             000000
+__Ltext22                            text22             000000
+__Ltext23                            text23             000000
+__Ltext24                            text24             000000
+__Ltext25                            text25             000000
+__Ltext26                            text26             000000
+__Ltext27                            text27             000000
+__Ltext28                            text28             000000
+__Ltext29                            text29             000000
+__Ltext3                             text3              000000
+__Ltext30                            text30             000000
+__Ltext31                            text31             000000
+__Ltext32                            text32             000000
+__Ltext33                            text33             000000
+__Ltext34                            text34             000000
+__Ltext35                            text35             000000
+__Ltext36                            text36             000000
+__Ltext37                            text37             000000
+__Ltext38                            text38             000000
+__Ltext39                            text39             000000
+__Ltext4                             text4              000000
+__Ltext40                            text40             000000
+__Ltext41                            text41             000000
+__Ltext42                            text42             000000
+__Ltext43                            text43             000000
+__Ltext44                            text44             000000
+__Ltext45                            text45             000000
+__Ltext46                            text46             000000
+__Ltext47                            text47             000000
+__Ltext5                             text5              000000
+__Ltext6                             text6              000000
+__Ltext7                             text7              000000
+__Ltext8                             text8              000000
+__Ltext9                             text9              000000
+__S0                                 (abs)              F00008
+__S1                                 (abs)              000E73
+___aslmul                            text46             001C78
+___aslmul@mp                         cstackCOMRAM       000024
+___aslmul@multiplicand               cstackCOMRAM       000026
+___lbdiv                             text43             001E54
+___lbdiv@counter                     cstackCOMRAM       00000D
+___lbdiv@dividend                    cstackCOMRAM       00000C
+___lbdiv@divisor                     cstackCOMRAM       00000B
+___lbdiv@quotient                    cstackCOMRAM       00000E
+___lldiv                             text42             0019D0
+___lldiv@counter                     cstackCOMRAM       000017
+___lldiv@dividend                    cstackCOMRAM       00000B
+___lldiv@divisor                     cstackCOMRAM       00000F
+___lldiv@quotient                    cstackCOMRAM       000013
+___lmul                              text47             001BE2
+___lmul@multiplicand                 cstackCOMRAM       00001C
+___lmul@multiplier                   cstackCOMRAM       000018
+___lmul@product                      cstackCOMRAM       000020
+___lwdiv                             text44             001C2E
+___lwdiv@counter                     cstackCOMRAM       00000F
+___lwdiv@dividend                    cstackCOMRAM       00000B
+___lwdiv@divisor                     cstackCOMRAM       00000D
+___lwdiv@quotient                    cstackCOMRAM       000010
+___wmul                              text45             001EBC
+___wmul@multiplicand                 cstackCOMRAM       00000D
+___wmul@multiplier                   cstackCOMRAM       00000B
+___wmul@product                      cstackCOMRAM       00000F
+__accesstop                          (abs)              000060
+__activetblptr                       (abs)              000003
+__end_of_Busy_eep                    text14             002062
+__end_of_EE_READ                     text31             00200A
+__end_of_EE_WRITE                    text13             002022
+__end_of_Frame_Buf_Read_PM           text37             001ABC
+__end_of_Frame_Buf_Write_PM          text38             001B92
+__end_of_Read_b_eep                  text32             00203A
+__end_of_Write_b_eep                 text15             001F12
+__end_of___aslmul                    text46             001CC2
+__end_of___lbdiv                     text43             001E8A
+__end_of___lldiv                     text42             001A46
+__end_of___lmul                      text47             001C2E
+__end_of___lwdiv                     text44             001C78
+__end_of___wmul                      text45             001EE8
+__end_of_calk_HEX_parametr           text20             0017AC
+__end_of_calk_parametr               text19             001512
+__end_of_ch_usart                    text10             001FD6
+__end_of_change_uart_init            text8              001EBC
+__end_of_check_data                  text29             001956
+__end_of_check_err                   text21             001DDA
+__end_of_check_lenght                text40             001672
+__end_of_clear_buf_RX                text3              001FBA
+__end_of_convert_mypronto_short      text39             000D44
+__end_of_convert_pronto_short        text36             001056
+__end_of_delay_ms                    text33             001F9E
+__end_of_delay_s                     text4              001F60
+__end_of_detect_command_terminal     text12             000AEE
+__end_of_find_N_char                 text18             001D52
+__end_of_getch                       text7              001E54
+__end_of_init_PM                     text5              002064
+__end_of_isr                         intcode            0003E4
+__end_of_load_command_terminal       text6              00145A
+__end_of_main                        text1              001ABC
+__end_of_putch                       text35             001F82
+__end_of_putch_long                  text34             0012A4
+__end_of_putchdec                    text22             0019D0
+__end_of_putchhex                    text24             001E18
+__end_of_putinthex                   text23             00205C
+__end_of_putst                       text16             001BD0
+__end_of_read_IRsignal               text30             001724
+__end_of_read_myProntobuf            text26             0011A8
+__end_of_read_scanbuf                text27             00182C
+__end_of_save_scanbuf                text28             0015B0
+__end_of_send_IR_signal              text25             000EF4
+__end_of_serial_setup                text9              0018D2
+__end_of_terminal_start              text2              001F3C
+__end_of_terminal_task               text1              001B1A
+__end_of_toupper                     text11             002050
+__end_of_uncode_com                  text17             001D0A
+__end_of_zap                         text41             001FF0
+__mediumconst                        mediumconst        00CFFA
+__p_User_Name100_text                _User_Name100_text 009400
+__p_User_Name101_text                _User_Name101_text 009500
+__p_User_Name102_text                _User_Name102_text 009600
+__p_User_Name103_text                _User_Name103_text 009700
+__p_User_Name104_text                _User_Name104_text 009800
+__p_User_Name105_text                _User_Name105_text 009900
+__p_User_Name106_text                _User_Name106_text 009A00
+__p_User_Name107_text                _User_Name107_text 009B00
+__p_User_Name108_text                _User_Name108_text 009C00
+__p_User_Name109_text                _User_Name109_text 009D00
+__p_User_Name10_text                 _User_Name10_text  003A00
+__p_User_Name110_text                _User_Name110_text 009E00
+__p_User_Name111_text                _User_Name111_text 009F00
+__p_User_Name112_text                _User_Name112_text 00A000
+__p_User_Name113_text                _User_Name113_text 00A100
+__p_User_Name114_text                _User_Name114_text 00A200
+__p_User_Name115_text                _User_Name115_text 00A300
+__p_User_Name116_text                _User_Name116_text 00A400
+__p_User_Name117_text                _User_Name117_text 00A500
+__p_User_Name118_text                _User_Name118_text 00A600
+__p_User_Name119_text                _User_Name119_text 00A700
+__p_User_Name11_text                 _User_Name11_text  003B00
+__p_User_Name120_text                _User_Name120_text 00A800
+__p_User_Name121_text                _User_Name121_text 00A900
+__p_User_Name122_text                _User_Name122_text 00AA00
+__p_User_Name123_text                _User_Name123_text 00AB00
+__p_User_Name124_text                _User_Name124_text 00AC00
+__p_User_Name125_text                _User_Name125_text 00AD00
+__p_User_Name126_text                _User_Name126_text 00AE00
+__p_User_Name127_text                _User_Name127_text 00AF00
+__p_User_Name128_text                _User_Name128_text 00B000
+__p_User_Name129_text                _User_Name129_text 00B100
+__p_User_Name12_text                 _User_Name12_text  003C00
+__p_User_Name130_text                _User_Name130_text 00B200
+__p_User_Name131_text                _User_Name131_text 00B300
+__p_User_Name132_text                _User_Name132_text 00B400
+__p_User_Name133_text                _User_Name133_text 00B500
+__p_User_Name134_text                _User_Name134_text 00B600
+__p_User_Name135_text                _User_Name135_text 00B700
+__p_User_Name136_text                _User_Name136_text 00B800
+__p_User_Name137_text                _User_Name137_text 00B900
+__p_User_Name138_text                _User_Name138_text 00BA00
+__p_User_Name139_text                _User_Name139_text 00BB00
+__p_User_Name13_text                 _User_Name13_text  003D00
+__p_User_Name140_text                _User_Name140_text 00BC00
+__p_User_Name141_text                _User_Name141_text 00BD00
+__p_User_Name142_text                _User_Name142_text 00BE00
+__p_User_Name143_text                _User_Name143_text 00BF00
+__p_User_Name144_text                _User_Name144_text 00C000
+__p_User_Name145_text                _User_Name145_text 00C100
+__p_User_Name146_text                _User_Name146_text 00C200
+__p_User_Name147_text                _User_Name147_text 00C300
+__p_User_Name148_text                _User_Name148_text 00C400
+__p_User_Name149_text                _User_Name149_text 00C500
+__p_User_Name14_text                 _User_Name14_text  003E00
+__p_User_Name150_text                _User_Name150_text 00C600
+__p_User_Name151_text                _User_Name151_text 00C700
+__p_User_Name152_text                _User_Name152_text 00C800
+__p_User_Name153_text                _User_Name153_text 00C900
+__p_User_Name154_text                _User_Name154_text 00CA00
+__p_User_Name155_text                _User_Name155_text 00CB00
+__p_User_Name156_text                _User_Name156_text 00CC00
+__p_User_Name157_text                _User_Name157_text 00CD00
+__p_User_Name158_text                _User_Name158_text 00CE00
+__p_User_Name159_text                _User_Name159_text 00CF00
+__p_User_Name15_text                 _User_Name15_text  003F00
+__p_User_Name16_text                 _User_Name16_text  004000
+__p_User_Name17_text                 _User_Name17_text  004100
+__p_User_Name18_text                 _User_Name18_text  004200
+__p_User_Name19_text                 _User_Name19_text  004300
+__p_User_Name1_text                  _User_Name1_text   003100
+__p_User_Name20_text                 _User_Name20_text  004400
+__p_User_Name21_text                 _User_Name21_text  004500
+__p_User_Name22_text                 _User_Name22_text  004600
+__p_User_Name23_text                 _User_Name23_text  004700
+__p_User_Name24_text                 _User_Name24_text  004800
+__p_User_Name25_text                 _User_Name25_text  004900
+__p_User_Name26_text                 _User_Name26_text  004A00
+__p_User_Name27_text                 _User_Name27_text  004B00
+__p_User_Name28_text                 _User_Name28_text  004C00
+__p_User_Name29_text                 _User_Name29_text  004D00
+__p_User_Name2_text                  _User_Name2_text   003200
+__p_User_Name30_text                 _User_Name30_text  004E00
+__p_User_Name31_text                 _User_Name31_text  004F00
+__p_User_Name32_text                 _User_Name32_text  005000
+__p_User_Name33_text                 _User_Name33_text  005100
+__p_User_Name34_text                 _User_Name34_text  005200
+__p_User_Name35_text                 _User_Name35_text  005300
+__p_User_Name36_text                 _User_Name36_text  005400
+__p_User_Name37_text                 _User_Name37_text  005500
+__p_User_Name38_text                 _User_Name38_text  005600
+__p_User_Name39_text                 _User_Name39_text  005700
+__p_User_Name3_text                  _User_Name3_text   003300
+__p_User_Name40_text                 _User_Name40_text  005800
+__p_User_Name41_text                 _User_Name41_text  005900
+__p_User_Name42_text                 _User_Name42_text  005A00
+__p_User_Name43_text                 _User_Name43_text  005B00
+__p_User_Name44_text                 _User_Name44_text  005C00
+__p_User_Name45_text                 _User_Name45_text  005D00
+__p_User_Name46_text                 _User_Name46_text  005E00
+__p_User_Name47_text                 _User_Name47_text  005F00
+__p_User_Name48_text                 _User_Name48_text  006000
+__p_User_Name49_text                 _User_Name49_text  006100
+__p_User_Name4_text                  _User_Name4_text   003400
+__p_User_Name50_text                 _User_Name50_text  006200
+__p_User_Name51_text                 _User_Name51_text  006300
+__p_User_Name52_text                 _User_Name52_text  006400
+__p_User_Name53_text                 _User_Name53_text  006500
+__p_User_Name54_text                 _User_Name54_text  006600
+__p_User_Name55_text                 _User_Name55_text  006700
+__p_User_Name56_text                 _User_Name56_text  006800
+__p_User_Name57_text                 _User_Name57_text  006900
+__p_User_Name58_text                 _User_Name58_text  006A00
+__p_User_Name59_text                 _User_Name59_text  006B00
+__p_User_Name5_text                  _User_Name5_text   003500
+__p_User_Name60_text                 _User_Name60_text  006C00
+__p_User_Name61_text                 _User_Name61_text  006D00
+__p_User_Name62_text                 _User_Name62_text  006E00
+__p_User_Name63_text                 _User_Name63_text  006F00
+__p_User_Name64_text                 _User_Name64_text  007000
+__p_User_Name65_text                 _User_Name65_text  007100
+__p_User_Name66_text                 _User_Name66_text  007200
+__p_User_Name67_text                 _User_Name67_text  007300
+__p_User_Name68_text                 _User_Name68_text  007400
+__p_User_Name69_text                 _User_Name69_text  007500
+__p_User_Name6_text                  _User_Name6_text   003600
+__p_User_Name70_text                 _User_Name70_text  007600
+__p_User_Name71_text                 _User_Name71_text  007700
+__p_User_Name72_text                 _User_Name72_text  007800
+__p_User_Name73_text                 _User_Name73_text  007900
+__p_User_Name74_text                 _User_Name74_text  007A00
+__p_User_Name75_text                 _User_Name75_text  007B00
+__p_User_Name76_text                 _User_Name76_text  007C00
+__p_User_Name77_text                 _User_Name77_text  007D00
+__p_User_Name78_text                 _User_Name78_text  007E00
+__p_User_Name79_text                 _User_Name79_text  007F00
+__p_User_Name7_text                  _User_Name7_text   003700
+__p_User_Name80_text                 _User_Name80_text  008000
+__p_User_Name81_text                 _User_Name81_text  008100
+__p_User_Name82_text                 _User_Name82_text  008200
+__p_User_Name83_text                 _User_Name83_text  008300
+__p_User_Name84_text                 _User_Name84_text  008400
+__p_User_Name85_text                 _User_Name85_text  008500
+__p_User_Name86_text                 _User_Name86_text  008600
+__p_User_Name87_text                 _User_Name87_text  008700
+__p_User_Name88_text                 _User_Name88_text  008800
+__p_User_Name89_text                 _User_Name89_text  008900
+__p_User_Name8_text                  _User_Name8_text   003800
+__p_User_Name90_text                 _User_Name90_text  008A00
+__p_User_Name91_text                 _User_Name91_text  008B00
+__p_User_Name92_text                 _User_Name92_text  008C00
+__p_User_Name93_text                 _User_Name93_text  008D00
+__p_User_Name94_text                 _User_Name94_text  008E00
+__p_User_Name95_text                 _User_Name95_text  008F00
+__p_User_Name96_text                 _User_Name96_text  009000
+__p_User_Name97_text                 _User_Name97_text  009100
+__p_User_Name98_text                 _User_Name98_text  009200
+__p_User_Name99_text                 _User_Name99_text  009300
+__p_User_Name9_text                  _User_Name9_text   003900
+__p_User_Name_text                   _User_Name_text    003000
+__pbssBANK0                          bssBANK0           000060
+__pbssBANK1                          bssBANK1           000100
+__pbssBIGRAM                         bssBIGRAM          000200
+__pbssCOMRAM                         bssCOMRAM          000042
+__pcinit                             cinit              001D52
+__pcstackBANK0                       cstackBANK0        0000C1
+__pcstackCOMRAM                      cstackCOMRAM       000001
+__pintcode                           intcode            000008
+__pmediumconst                       mediumconst        00CFFA
+__ptext0                             text0              0012C6
+__ptext1                             text1              001ABC
+__ptext10                            text10             001FBA
+__ptext11                            text11             00203A
+__ptext12                            text12             0003E8
+__ptext13                            text13             00200A
+__ptext14                            text14             00205C
+__ptext15                            text15             001EE8
+__ptext16                            text16             001B92
+__ptext17                            text17             001CC2
+__ptext18                            text18             001D0A
+__ptext19                            text19             00145A
+__ptext2                             text2              001F12
+__ptext20                            text20             001724
+__ptext21                            text21             001D98
+__ptext22                            text22             001956
+__ptext23                            text23             002050
+__ptext24                            text24             001DDA
+__ptext25                            text25             000D60
+__ptext26                            text26             001078
+__ptext27                            text27             0017BC
+__ptext28                            text28             001520
+__ptext29                            text29             0018D2
+__ptext3                             text3              001F9E
+__ptext30                            text30             001684
+__ptext31                            text31             001FF0
+__ptext32                            text32             002022
+__ptext33                            text33             001F82
+__ptext34                            text34             0011BC
+__ptext35                            text35             001F60
+__ptext36                            text36             000F12
+__ptext37                            text37             001A46
+__ptext38                            text38             001B28
+__ptext39                            text39             000B88
+__ptext4                             text4              001F3C
+__ptext40                            text40             0015D6
+__ptext41                            text41             001FD6
+__ptext42                            text42             0019D0
+__ptext43                            text43             001E54
+__ptext44                            text44             001C2E
+__ptext45                            text45             001EBC
+__ptext46                            text46             001C78
+__ptext47                            text47             001BE2
+__ptext5                             text5              002062
+__ptext6                             text6              001392
+__ptext7                             text7              001E18
+__ptext8                             text8              001E8A
+__ptext9                             text9              001848
+__ramtop                             ramtop             001000
+__size_of_Busy_eep                   (abs)              000000
+__size_of_EE_READ                    (abs)              000000
+__size_of_EE_WRITE                   (abs)              000000
+__size_of_Frame_Buf_Read_PM          (abs)              000000
+__size_of_Frame_Buf_Write_PM         (abs)              000000
+__size_of_Read_b_eep                 (abs)              000000
+__size_of_Write_b_eep                (abs)              000000
+__size_of___aslmul                   (abs)              000000
+__size_of___lbdiv                    (abs)              000000
+__size_of___lldiv                    (abs)              000000
+__size_of___lmul                     (abs)              000000
+__size_of___lwdiv                    (abs)              000000
+__size_of___wmul                     (abs)              000000
+__size_of_calk_HEX_parametr          (abs)              000000
+__size_of_calk_parametr              (abs)              000000
+__size_of_ch_usart                   (abs)              000000
+__size_of_change_uart_init           (abs)              000000
+__size_of_check_data                 (abs)              000000
+__size_of_check_err                  (abs)              000000
+__size_of_check_lenght               (abs)              000000
+__size_of_clear_buf_RX               (abs)              000000
+__size_of_convert_mypronto_short     (abs)              000000
+__size_of_convert_pronto_short       (abs)              000000
+__size_of_delay_ms                   (abs)              000000
+__size_of_delay_s                    (abs)              000000
+__size_of_detect_command_terminal    (abs)              000000
+__size_of_find_N_char                (abs)              000000
+__size_of_getch                      (abs)              000000
+__size_of_init_PM                    (abs)              000000
+__size_of_isr                        (abs)              000000
+__size_of_load_command_terminal      (abs)              000000
+__size_of_main                       (abs)              000000
+__size_of_putch                      (abs)              000000
+__size_of_putch_long                 (abs)              000000
+__size_of_putchdec                   (abs)              000000
+__size_of_putchhex                   (abs)              000000
+__size_of_putinthex                  (abs)              000000
+__size_of_putst                      (abs)              000000
+__size_of_read_IRsignal              (abs)              000000
+__size_of_read_myProntobuf           (abs)              000000
+__size_of_read_scanbuf               (abs)              000000
+__size_of_save_scanbuf               (abs)              000000
+__size_of_send_IR_signal             (abs)              000000
+__size_of_serial_setup               (abs)              000000
+__size_of_terminal_start             (abs)              000000
+__size_of_terminal_task              (abs)              000000
+__size_of_toupper                    (abs)              000000
+__size_of_uncode_com                 (abs)              000000
+__size_of_zap                        (abs)              000000
+__smallconst                         smallconst         000000
+_ask_geth_byte                       bssBANK0           0000AE
+_ask_geth_byte2                      bssBANK0           0000AF
+_buf_rx_command                      bssBIGRAM          00070D
+_buffer_rx                           bssBANK1           000100
+_buffer_rx2                          bssBANK1           000180
+_calk_HEX_parametr                   text20             001724
+_calk_parametr                       text19             00145A
+_ch_usart                            text10             001FBA
+_change_uart_init                    text8              001E8A
+_check_data                          text29             0018D2
+_check_err                           text21             001D98
+_check_lenght                        text40             0015D6
+_clear_buf_RX                        text3              001F9E
+_clear_bufrx                         bssBANK0           0000B0
+_clear_bufrx2                        bssBANK0           0000B1
+_cnt_clk                             bssCOMRAM          000049
+_cnt_millisecund                     bssBANK0           0000A0
+_cnt_secund                          bssBANK0           0000A2
+_cnt_secund1                         bssBANK0           0000B2
+_cnt_wt                              bssBANK0           0000B3
+_command_data                        bssBIGRAM          000D0D
+_convert_mypronto_short              text39             000B88
+_convert_pronto_short                text36             000F12
+_delay_ms                            text33             001F82
+_delay_s                             text4              001F3C
+_detect_command_terminal             text12             0003E8
+_dlin_pause                          bssBANK0           0000A4
+_dlin_sig                            bssBANK0           0000A6
+_end_bufrx                           bssCOMRAM          00004A
+_end_bufrx2                          bssCOMRAM          00004B
+_extra_count                         bssCOMRAM          00004C
+_find_N_char                         text18             001D0A
+_fl_find_end                         bssBANK0           0000B4
+_fl_overfull                         bssBANK0           0000B5
+_fl_send_read                        bssBANK0           0000B6
+_fl_start_send                       bssCOMRAM          00004D
+_fl_start_wait                       bssCOMRAM          00004E
+_getch                               text7              001E18
+_geth_byte                           bssBANK0           0000B7
+_geth_byte2                          bssBANK0           0000B8
+_global_switch_protect               bssBANK0           0000B9
+_init_PM                             text5              002062
+_isr                                 intcode            000008
+_led_inform                          bssBANK0           0000BA
+_load_command_terminal               text6              001392
+_main                                text0              0012C6
+_pronto_data                         bssBIGRAM          000200
+_putch                               text35             001F60
+_putch_long                          text34             0011BC
+_putchdec                            text22             001956
+_putchhex                            text24             001DDA
+_putinthex                           text23             002050
+_putst                               text16             001B92
+_read_IRsignal                       text30             001684
+_read_myProntobuf                    text26             001078
+_read_scanbuf                        text27             0017BC
+_save_scanbuf                        text28             001520
+_send_IR_signal                      text25             000D60
+_serial_setup                        text9              001848
+_st_bufrx                            bssCOMRAM          00004F
+_st_bufrx2                           bssCOMRAM          000050
+_start_scan                          bssCOMRAM          000051
+_stop_scan                           bssCOMRAM          000052
+_synhr                               bssBANK0           0000BB
+_terminal_start                      text2              001F12
+_terminal_task                       text1              001ABC
+_time_send                           bssBANK0           0000A8
+_toupper                             text11             00203A
+_uncode_com                          text17             001CC2
+_zap                                 text41             001FD6
+calk_HEX_parametr@rezult             cstackCOMRAM       00000D
+calk_HEX_parametr@ukaz               cstackCOMRAM       00000B
+calk_HEX_parametr@work_int           cstackCOMRAM       00000F
+calk_parametr@mnog                   cstackCOMRAM       000035
+calk_parametr@ukaz                   cstackCOMRAM       00002A
+calk_parametr@work_long              cstackCOMRAM       000031
+ch_usart@ch                          cstackCOMRAM       00000B
+change_uart_init@napravl             cstackCOMRAM       00000D
+check_data@i_int                     cstackCOMRAM       000013
+check_data@work_int                  cstackCOMRAM       000015
+check_data@work_int2                 cstackCOMRAM       000011
+check_lenght@i                       cstackCOMRAM       000013
+check_lenght@lenght_raw              cstackCOMRAM       00000D
+check_lenght@mass_len_body           cstackCOMRAM       00000B
+check_lenght@work                    cstackCOMRAM       000011
+convert_mypronto_short@count_data    cstackCOMRAM       00001A
+convert_mypronto_short@i             cstackCOMRAM       00001E
+convert_mypronto_short@i_int         cstackCOMRAM       00001C
+convert_mypronto_short@marker_lenght cstackCOMRAM       000018
+convert_mypronto_short@type_command  cstackCOMRAM       000019
+convert_pronto_short@count_data      cstackCOMRAM       00001C
+convert_pronto_short@i               cstackCOMRAM       000020
+convert_pronto_short@i_int           cstackCOMRAM       00001E
+convert_pronto_short@marker_lenght   cstackCOMRAM       00001B
+convert_pronto_short@type_command    cstackCOMRAM       00001A
+delay_ms@wait                        cstackCOMRAM       00000B
+delay_s@i                            cstackCOMRAM       00000C
+delay_s@wait                         cstackCOMRAM       00000B
+detect_command_terminal@burn_count   cstackBANK0        0000C9
+detect_command_terminal@end_ukaz     cstackBANK0        0000CC
+detect_command_terminal@i            cstackBANK0        0000CB
+detect_command_terminal@i_int        cstackBANK0        0000D6
+detect_command_terminal@ukaz         cstackCOMRAM       00003F
+detect_command_terminal@ukaz_otnos   cstackBANK0        0000C7
+detect_command_terminal@ukaz_tek     cstackBANK0        0000D4
+detect_command_terminal@wrk_char     cstackBANK0        0000D8
+detect_command_terminal@wrk_int      cstackBANK0        0000CE
+detect_command_terminal@wrk_long     cstackBANK0        0000D0
+end_of_initialization                cinit              001D92
+find_N_char@MAX_buf                  cstackCOMRAM       00000F
+find_N_char@massive                  cstackCOMRAM       00000B
+find_N_char@n_cnt                    cstackCOMRAM       00000E
+find_N_char@simvol                   cstackCOMRAM       00000D
+find_N_char@ukaz                     cstackCOMRAM       000011
+intlevel0                            text               000000
+intlevel1                            text               000000
+intlevel2                            text               000000
+intlevel3                            text               000000
+isr@cnt_ms                           bssBANK0           0000BC
+isr@count_data                       bssBANK0           0000AA
+isr@num_data                         bssCOMRAM          000053
+isr@svetik_synhr                     bssCOMRAM          000054
+isr@tek_slot                         bssBANK0           0000AC
+isr@work_int                         bssBANK0           0000BD
+isr@work_int2                        bssBANK0           0000BE
+isr@work_long                        bssCOMRAM          000042
+load_command_terminal@count_ukaz     bssCOMRAM          000046
+load_command_terminal@start_ld_comm  bssBANK0           0000BF
+load_command_terminal@temp           cstackCOMRAM       000010
+main@save_det                        cstackCOMRAM       000041
+putch@c                              cstackCOMRAM       00000B
+putch_long@c                         cstackCOMRAM       000024
+putch_long@delit                     cstackCOMRAM       000029
+putch_long@st_razr                   bssBANK0           0000C0
+putch_long@temp                      cstackCOMRAM       000028
+putchdec@c                           cstackCOMRAM       000010
+putchdec@temp                        cstackCOMRAM       00000F
+putchhex@c                           cstackCOMRAM       00000D
+putchhex@temp                        cstackCOMRAM       00000C
+putinthex@c                          cstackCOMRAM       00000E
+putst@str                            cstackCOMRAM       00000C
+read_IRsignal@burn_count             cstackCOMRAM       00001F
+read_myProntobuf@end_body            cstackCOMRAM       000028
+read_myProntobuf@i                   cstackCOMRAM       00002A
+read_myProntobuf@i_int               cstackCOMRAM       00002B
+read_myProntobuf@num_data            cstackCOMRAM       000026
+read_myProntobuf@work_byte           cstackCOMRAM       000027
+read_scanbuf@i_cnt                   cstackCOMRAM       00001F
+read_scanbuf@k_cnt                   cstackCOMRAM       00001E
+read_scanbuf@num_data                cstackCOMRAM       00001B
+read_scanbuf@ukaz_buf                cstackCOMRAM       00001C
+save_scanbuf@i_cnt                   cstackCOMRAM       000019
+save_scanbuf@k_cnt                   cstackCOMRAM       000017
+save_scanbuf@num_data                cstackCOMRAM       000014
+save_scanbuf@ukaz_buf                cstackCOMRAM       000015
+send_IR_signal@adr                   cstackCOMRAM       000035
+send_IR_signal@first_stop            cstackCOMRAM       000038
+send_IR_signal@k_int                 cstackCOMRAM       00003B
+send_IR_signal@second_stop           cstackCOMRAM       000036
+send_IR_signal@time_loop             cstackCOMRAM       00002D
+send_IR_signal@timeburn              cstackCOMRAM       00003A
+send_IR_signal@work_uint             cstackCOMRAM       00003D
+serial_setup@ind_speed               cstackCOMRAM       00000C
+serial_setup@num_usart               cstackCOMRAM       00000B
+start                                init               0003E4
+start_initialization                 cinit              001D52
+terminal_start@napravl               cstackCOMRAM       00000E
+terminal_task@i_int                  cstackBANK0        0000DB
+terminal_task@work_int               cstackBANK0        0000D9
+toupper@c                            cstackCOMRAM       00000B
+uncode_com@str                       cstackCOMRAM       00000B
+uncode_com@ukaz                      cstackCOMRAM       00000E

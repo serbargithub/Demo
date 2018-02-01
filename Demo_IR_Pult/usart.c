@@ -1,6 +1,6 @@
 #include <pic18.h>
-#include "my_delay.h"
-#include "name_konst.h"
+#include "my_delays.h"
+#include "name_constants.h"
 
 extern unsigned char SW_uart;	
 extern unsigned char clear_bufrx,ask_geth_byte,st_bufrx,end_bufrx,geth_byte;
@@ -197,8 +197,6 @@ if(!SW_uart){work=geth_byte;}
 //Send one byte (for PRINT)
 void putch(unsigned char c)	
 {
-// unsigned char work;
-//	check_err();
 if(!SW_uart)
 	{
 		while(!TX1IF){CLRWDT();}			//waiting for free buffer 
@@ -209,7 +207,6 @@ if(!SW_uart)
 		while(!TX2IF){CLRWDT();}			//waiting for free buffer 
 		TXREG2=c;
 	}
-//	delay_ms(1);
 }
 //=====================================
 //Get one byte
@@ -320,7 +317,7 @@ void putinthex(unsigned int c)
 	#undef ramuchar(x)
 }
 //====================================
-//Print int to decimal format 
+//Print char to decimal format 
 void putchdec(unsigned char c)
 {
 	unsigned char temp;
@@ -387,16 +384,16 @@ char temp;
 void ch_usart(char ch)
 {
 switch(ch)
-{
-case SEC_US:
-	SW_uart=1;
-	break;
-case PRI_US:
-	SW_uart=0;
-	break;
+	{
+	case SEC_US:
+		SW_uart=1;
+		break;
+	case PRI_US:
+		SW_uart=0;
+		break;
 
-default:
-	break;
-}
+	default:
+		break;
+	}
 }
 //-------------------------------

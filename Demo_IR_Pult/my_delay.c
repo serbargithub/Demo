@@ -1,5 +1,5 @@
 #include <pic18.h> 
-#include "name_port.h"
+#include "name_ports.h"
 
 extern unsigned char cnt_clk,fl_dtmf_yes,dtmf_read;
 

@@ -1,7 +1,7 @@
 #include <pic18.h>  
-#include "my_delay.h"
+#include "my_delays.h"
 #include "usart.h"
-#include "name_konst.h"
+#include "name_constants.h"
 #include "eeprom.h"
 #include "EEprom_in_PM.h"
 
@@ -9,7 +9,7 @@ extern unsigned char led_inform,stop_scan,start_scan,fl_send_read,fl_start_send,
 extern unsigned int cnt_secund,dlin_pause,dlin_sig,cnt_millisecund,time_send;
 extern unsigned char Buffer_PM[];
 //----------------------------------------------
-extern struct com_map
+extern struct command_map
 {							
 unsigned char type_command;		// 0- usual repeating command, 1- non-repeating sequence of 1 packet, 2 non-repeating sequence of two packets
 unsigned char time_burn;        // modulation frequency of the output signal and time slot for the input signal: Calculated by the formula Frequency = 1000000 / (N * .241246)
@@ -18,7 +18,7 @@ unsigned int  tail_count;		// counter of fronts and falls of the tail
 unsigned int  len_body[16];		// The length of the gap between fronts, is encoded by references in the database with two bits
 unsigned char body[Max_slot_Short];	// The body of the command, is coded by halves of bytes with references to the table of durations
 };
-extern struct com_map command_data;
+extern struct command_map command_data;
 
 extern struct pronto_struct
 {

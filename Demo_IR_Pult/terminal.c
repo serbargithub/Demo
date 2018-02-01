@@ -2,9 +2,9 @@
 #include "ctype.h"
 #include "usart.h" 
 #include "usart_buf.h" 
-#include "my_delay.h"
-#include "name_konst.h"
-#include "name_port.h"
+#include "my_delays.h"
+#include "name_constants.h"
+#include "name_ports.h"
 #include "eeprom.h"
 #include "IR_funct.h"
 #include "EEprom_in_PM.h"
@@ -18,7 +18,7 @@ extern  unsigned char led_inform;
 extern unsigned char fl_sec_code,ask_geth_byte,clear_bufrx;
 
 
-extern struct com_map
+extern struct command_map
 {
 unsigned char type_command;		// 0- usual repeating command, 1- non-repeating sequence of 1 packet, 2 non-repeating sequence of two packets
 unsigned char time_burn;        // modulation frequency of the output signal and time slot for the input signal: Calculated by the formula Frequency = 1000000 / (N * .241246)
@@ -27,7 +27,7 @@ unsigned int  tail_count;		// counter of fronts and falls of the tail
 unsigned int  len_body[16];		// The length of the gap between fronts, is encoded by references in the database with two bits
 unsigned char body[Max_slot_Short];	// The body of the command, is coded by halves of bytes with references to the table of durations
 };
-extern struct com_map command_data;
+extern struct command_map command_data;
 
 extern struct pronto_struct
 {
@@ -150,12 +150,6 @@ void change_uart_init(unsigned char napravl)
 {
 if (napravl==SEC_US)
 	{
-/*	GIE=0;
-	T2CON=0b00001000;	//пост дел/2
-	TMR2IF=0;
-	TMR2ON=1;
-	GIE=1;
-*/
 	TRISB6=0;
 	TRISC6=1;
 	ch_usart(SEC_US);
@@ -163,13 +157,6 @@ if (napravl==SEC_US)
 	}
 if (napravl==PRI_US)
 	{
-/*
-	GIE=0;
-	T2CON=0b00001000;	//пост дел/2
-	TMR2IF=0;
-	TMR2ON=1;
-	GIE=1;
-*/
 	TRISB6=1;
 	TRISC6=0;
 	ch_usart(PRI_US);
@@ -334,8 +321,6 @@ if (uncode_com("AT+WRPRN=")) 				//Writing command from memory location in PRONT
 		wrk_int=(pronto_data.num_slot+pronto_data.tail_slot)*2;
 		if(wrk_int>=Max_slot_pronto) goto end_error;
 
-//		putch('\r');for (i_int=0;i_int<ukaz;i_int++){putch(buf_rx_command[i_int]);}putch('\r');
-
 		CLRWDT();
 		for(i_int=0;i_int<(wrk_int-1);i_int++)
 		{
@@ -403,12 +388,12 @@ if (!count_ukaz)
 		}
   }while(cnt_secund<=stop_time);
 if (cnt_secund<=stop_time) {return count_ukaz;}
-return 0;		// если время вышло- возврват с ошибкой
+return 0;		// if time run out - return
 
 }
 //---------------------------------------
 // wait for a lexem within T seconds, n lexems. Is returned a pointer to the last letter (added zero)
-char read_lexem	(char n_lex,char time)			// ожидание лексемы в течении т секунд, n лексем возвращается указатель на последнюю букву(дописаный ноль)
+char read_lexem	(char n_lex,char time)	
 {
 char temp=0;
 clear_buf_RX();

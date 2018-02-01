@@ -2,7 +2,7 @@
 MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
 Version=1.0
 [File000]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\eeprom.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\eeprom.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -15,7 +15,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File001]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\main_IR_modul.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\main_IR_modul.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -28,7 +28,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File002]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\my_delay.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\my_delay.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -41,7 +41,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File003]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\terminal.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\terminal.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -54,7 +54,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File004]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\usart.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\usart.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -67,7 +67,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File005]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\usart_buf.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\usart_buf.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -80,7 +80,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File006]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_funct.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_funct.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -93,7 +93,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File007]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\EEprom_in_PM.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\EEprom_in_PM.p1
 Folder=Intermediary
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -106,7 +106,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File008]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.cof
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.cof
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -119,7 +119,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File009]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.hex
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.hex
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -132,7 +132,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File010]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.sym
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.sym
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -145,7 +145,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File011]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.map
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.map
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -158,7 +158,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File012]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.hxl
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.hxl
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -171,7 +171,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File013]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\startup.lst
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\startup.lst
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -184,7 +184,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File014]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\startup.rlf
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\startup.rlf
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -197,7 +197,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File015]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\doprnt.p1
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\doprnt.p1
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -210,7 +210,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File016]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\doprnt.pre
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\doprnt.pre
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -223,7 +223,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File017]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.obj
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.obj
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -236,7 +236,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File018]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.lst
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.lst
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -249,7 +249,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File019]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.rlf
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.rlf
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
@@ -262,7 +262,7 @@ ToolArgsString=C6=31 DB=0 DC=9 DF=0 DD=1 C2=0 C3=0 DE=1 D7=1 11E=0 121=0 122=0 1
 TraceCmdString=
 DebugOptions=
 [File020]
-Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_code\Demo_IR_Pult\IR_remoute.sdb
+Location=D:\MY_director\SYNHR_WORK\PROJECTS_FULL\Demo_IR_code\Demo_IR_Pult\IR_remoute.sdb
 Folder=Output
 DeviceName=PIC18F26K22
 LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
